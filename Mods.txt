@@ -1,0 +1,1454 @@
+APlayerCameraManager.CachedCameraShakeMod
+APrimalStructure.OnModDownloadComplete(bool,FInstalledMod&)
+APrimalStructure.OnModDownloadCompleteMultiRefresh(bool,FInstalledMod&,TSubclassOf<APrimalStructure>,__int64,int,bool,bool)
+APrimalWorldSettings.InitializePrimalGameDataForWorld()
+APrimalWorldSettings.PrimalGameDataOverride
+AShooterCharacter.OnHairCosmeticDownloadComplete(bool,FInstalledMod&,bool)
+AShooterCharacter.OnHairCosmeticDownloadCompleteSnapshot(bool,FInstalledMod&,UPrimalItem*,AActor*,UE::Math::TVector<double>,float,int,bool)
+AShooterGameMode.NPCZoneManagerMod
+AShooterGameState.PerformanceThrottledTicksMod
+AShooterGameState.PlayerListThrottledMod
+AShooterGameState.ThrottledTicksMod
+AShooterPlayerController.OwnsPremiumMod(__int64)
+AShooterPlayerController.execOwnsPremiumMod(UObject*,FFrame&,void*const)
+AWorldSettings.InitializePrimalGameDataForWorld()
+FActiveGameplayEffectsContainer.InternalExecuteMod(FGameplayEffectSpec&,FGameplayModifierEvaluatedData&)
+FAggregator.AddAggregatorMod(float,TEnumAsByte<EGameplayModOp::Type>,EGameplayModEvaluationChannel,FGameplayTagRequirements*,FGameplayTagRequirements*,bool,FActiveGameplayEffectHandle)
+FAggregator.GetAllAggregatorMods(TMap<EGameplayModEvaluationChannel,TArray<FAggregatorMod,TSizedDefaultAllocator<32>>*,FDefaultSetAllocator,TDefaultMapHashableKeyFuncs<EGameplayModEvaluationChannel,TArray<FAggregatorMod,TSizedDefaultAllocator<32>>*,0>>&)
+FAggregator.RemoveAggregatorMod(FActiveGameplayEffectHandle)
+FAggregator.UpdateAggregatorMod(FActiveGameplayEffectHandle,FGameplayAttribute&,FGameplayEffectSpec&,bool,FActiveGameplayEffectHandle)
+FAggregatorMod.ActiveHandle
+FAggregatorMod.EvaluatedMagnitude
+FAggregatorMod.IsPredicted
+FAggregatorMod.IsQualified
+FAggregatorMod.SourceTagReqs
+FAggregatorMod.StackCount
+FAggregatorMod.TargetTagReqs
+FAggregatorMod.UpdateQualifies(FAggregatorEvaluateParameters&)
+FAggregatorModChannelContainer.ForEachMod(TFunction<void__cdecl(FAggregatorModInfo&))
+FAggregatorModChannelContainer.GetAllAggregatorMods(TMap<EGameplayModEvaluationChannel,TArray<FAggregatorMod,TSizedDefaultAllocator<32>>*,FDefaultSetAllocator,TDefaultMapHashableKeyFuncs<EGameplayModEvaluationChannel,TArray<FAggregatorMod,TSizedDefaultAllocator<32>>*,0>>&)
+FAggregatorModChannelContainer.RemoveAggregatorMod(FActiveGameplayEffectHandle&)
+FAggregatorModInfo.Mod
+FCFCoreApiGetModDelegate_DelegateWrapper::__l2::_Script_cfcore_eventCFCoreApiGetModDelegate_Parms.mod
+FCFCoreApiGetModsDelegate.ExecuteIfBound(TArray<FCFCoreMod,TSizedDefaultAllocator<32>>&)
+FCFCoreApiSubscribeDelegate_DelegateWrapper::__l2::_Script_cfcore_eventCFCoreApiSubscribeDelegate_Parms.mod
+FCFCoreCreateModDelegate_DelegateWrapper::__l2::_Script_cfcore_eventCFCoreCreateModDelegate_Parms.mod
+FCFCoreErrorWithModDelegate.ExecuteIfBound(FCFCoreError&,FCFCoreMod)
+FCFCoreErrorWithModDelegate_DelegateWrapper::__l2::_Script_cfcore_eventCFCoreErrorWithModDelegate_Parms.mod
+FCFCoreHighlightsMod.FCFCoreHighlightsMod()
+FCFCoreHighlightsMod.StaticStruct()
+FCFCoreHighlightsMod.authors
+FCFCoreHighlightsMod.downloadCount
+FCFCoreHighlightsMod.fileSize
+FCFCoreHighlightsMod.id
+FCFCoreHighlightsMod.logo
+FCFCoreHighlightsMod.name
+FCFCoreHighlightsMod.premiumDetails
+FCFCoreHighlightsMod.ratingDetails
+FCFCoreHighlightsMod.~FCFCoreHighlightsMod()
+FCFCoreLibClientServerUpdateDelegate.ExecuteIfBound(TArray<FInstalledMod,TSizedDefaultAllocator<32>>&)
+FCFCoreLibClientServerUpdateProgressDelegate.ExecuteIfBound(FModsUpdateProgress&,FLibraryProgress&,FCFCoreMod&)
+FCFCoreLibClientServerUpdateProgressDelegate_DelegateWrapper::__l2::_Script_cfcore_eventCFCoreLibClientServerUpdateProgressDelegate_Parms.Mod
+FCFCoreLibInstallDelegate.ExecuteIfBound(FInstalledMod&)
+FCFCoreLibInstallDelegate_DelegateWrapper::__l2::_Script_cfcore_eventCFCoreLibInstallDelegate_Parms.installed_mod
+FCFCoreLibUninstallDelegate_DelegateWrapper::__l2::_Script_cfcore_eventCFCoreLibUninstallDelegate_Parms.uninstalled_mod
+FCFCoreMod.FCFCoreMod()
+FCFCoreMod.FCFCoreMod(FCFCoreMod&&)
+FCFCoreMod.FCFCoreMod(FCFCoreMod&)
+FCFCoreMod.StaticStruct()
+FCFCoreMod.allowModDistribution
+FCFCoreMod.authors
+FCFCoreMod.categories
+FCFCoreMod.classId
+FCFCoreMod.dateCreated
+FCFCoreMod.dateModified
+FCFCoreMod.dateReleased
+FCFCoreMod.downloadCount
+FCFCoreMod.gameId
+FCFCoreMod.gamePopularityRank
+FCFCoreMod.id
+FCFCoreMod.isAvailable
+FCFCoreMod.isFeatured
+FCFCoreMod.latestFiles
+FCFCoreMod.latestFilesIndexes
+FCFCoreMod.links
+FCFCoreMod.logo
+FCFCoreMod.mainFileId
+FCFCoreMod.name
+FCFCoreMod.operator=(FCFCoreMod&&)
+FCFCoreMod.operator=(FCFCoreMod&)
+FCFCoreMod.premiumDetails
+FCFCoreMod.primaryCategoryId
+FCFCoreMod.ratingDetails
+FCFCoreMod.screenshots
+FCFCoreMod.slug
+FCFCoreMod.status
+FCFCoreMod.summary
+FCFCoreMod.videos
+FCFCoreMod.~FCFCoreMod()
+FCFCoreOnModUninstalled_DelegateWrapper::__l2::_Script_cfcore_eventCFCoreOnModUninstalled_Parms.UninstalledMod
+FCFCoreUIInstallDelegate_DelegateWrapper::__l2::_Script_cfcore_ui_eventCFCoreUIInstallDelegate_Parms.installed_mod
+FCFCoreUIUninstallDelegate_DelegateWrapper::__l2::_Script_cfcore_ui_eventCFCoreUIUninstallDelegate_Parms.uninstalMod
+FCFCoreUpdateModDelegate_DelegateWrapper::__l2::_Script_cfcore_eventCFCoreUpdateModDelegate_Parms.mod
+FGenericPlatformMath.Fmod(double,double)
+FGenericPlatformMath.Fmod(float,float)
+FInstallProgressMod.Categories
+FInstallProgressMod.DynamicImage
+FInstallProgressMod.FInstallProgressMod()
+FInstallProgressMod.FInstallProgressMod(FInstallProgressMod&)
+FInstallProgressMod.ModSlotRef
+FInstallProgressMod.Screenshots_Info
+FInstallProgressMod.ShowcaseImages
+FInstallProgressMod.StaticStruct()
+FInstallProgressMod.installStatus
+FInstallProgressMod.mod
+FInstallProgressMod.operator=(FInstallProgressMod&&)
+FInstallProgressMod.operator=(FInstallProgressMod&)
+FInstallProgressMod.progress
+FInstallProgressMod.progressSet
+FInstallProgressMod.~FInstallProgressMod()
+FInstalledMod.FInstalledMod()
+FInstalledMod.FInstalledMod(FInstalledMod&&)
+FInstalledMod.FInstalledMod(FInstalledMod&)
+FInstalledMod.StaticStruct()
+FInstalledMod.dateInstalled
+FInstalledMod.dateUpdated
+FInstalledMod.details
+FInstalledMod.dynamicContent
+FInstalledMod.enabled
+FInstalledMod.id
+FInstalledMod.installedFile
+FInstalledMod.latestUpdatedFile
+FInstalledMod.loadOrder
+FInstalledMod.operator=(FInstalledMod&)
+FInstalledMod.pathOnDisk
+FInstalledMod.preInstallStatus
+FInstalledMod.status
+FInstalledMod.unmanaged
+FInstalledMod.~FInstalledMod()
+FInstantWeaponData.TargetingSpreadMod
+FJsonObjectConverter.JsonObjectStringToUStruct<FCFCoreMod>(FString&,FCFCoreMod*,__int64,__int64,bool,FText*,TDelegate<bool__cdecl(TSharedPtr<FJsonValue,1>&,FProperty*,void*)>*)
+FMaterialUniformExpressionFmod.A
+FMaterialUniformExpressionFmod.B
+FModDownloadState.OnFinished(bool,FInstalledMod&)
+FSubmixEffectFilter.FilterFrequencyMod
+FSubmixEffectFilter.FilterQMod
+Fts3tokTable.pMod
+Global.ConstructItems<FCFCoreHighlightsMod,FCFCoreHighlightsMod,int>(void*,FCFCoreHighlightsMod*,int)
+Global.ConstructItems<FCFCoreMod,FCFCoreMod,int>(void*,FCFCoreMod*,int)
+Global.ConstructItems<FInstallProgressMod,FInstallProgressMod,int>(void*,FInstallProgressMod*,int)
+Global.ConstructItems<FInstalledMod,FInstalledMod,int>(void*,FInstalledMod*,int)
+Global.ConstructItems<TDelegate<void __cdecl(bool,FInstalledMod const &),FDefaultDelegateUserPolicy>,TDelegate<void __cdecl(bool,FInstalledMod const &),FDefaultDelegateUserPolicy>,int>(void*,TDelegate<void__cdecl(bool,FInstalledMod&)>*,int)
+Global.ConstructItems<TSubclassOf<UPrimalGameData>,TSubclassOf<UPrimalGameData>,int>(void*,TSubclassOf<UPrimalGameData>*,int)
+Global.ConstructItems<TTuple<FCFCoreError,FInstalledMod>,TTuple<FCFCoreError,FInstalledMod>,int>(void*,TTuple<FCFCoreError,FInstalledMod>*,int)
+Global.ConstructItems<TTuple<FCFCoreMod,FFile>,TTuple<FCFCoreMod,FFile>,int>(void*,TTuple<FCFCoreMod,FFile>*,int)
+Global.DefaultConstructItems<TTuple<FCFCoreError,FInstalledMod>,int>(void*,int)
+Global.DestructItems<FCFCoreHighlightsMod,int>(FCFCoreHighlightsMod*,int)
+Global.DestructItems<FCFCoreMod,int>(FCFCoreMod*,int)
+Global.DestructItems<FInstallProgressMod,int>(FInstallProgressMod*,int)
+Global.DestructItems<FInstalledMod,int>(FInstalledMod*,int)
+Global.DestructItems<TDelegate<void __cdecl(bool,FInstalledMod const &),FDefaultDelegateUserPolicy>,int>(TDelegate<void__cdecl(bool,FInstalledMod&)>*,int)
+Global.DestructItems<TFuture<TTuple<FCFCoreError,FInstalledMod> >,int>(TFuture<TTuple<FCFCoreError,FInstalledMod>>*,int)
+Global.DestructItems<TTuple<FCFCoreError,FInstalledMod>,int>(TTuple<FCFCoreError,FInstalledMod>*,int)
+Global.DestructItems<TTuple<FCFCoreMod,FFile>,int>(TTuple<FCFCoreMod,FFile>*,int)
+Global.FCFCoreApiGetModDelegate_DelegateWrapper(TScriptDelegate<FNotThreadSafeDelegateMode>&,FCFCoreMod&)
+Global.FCFCoreApiGetModsDelegate_DelegateWrapper(TScriptDelegate<FNotThreadSafeDelegateMode>&,TArray<FCFCoreMod,TSizedDefaultAllocator<32>>&)
+Global.FCFCoreApiGetModsSubscriptionsDelegate_DelegateWrapper(TScriptDelegate<FNotThreadSafeDelegateMode>&,TArray<FCFCoreMod,TSizedDefaultAllocator<32>>&,FCFCoreApiResponsePagination&)
+Global.FCFCoreApiSearchModsDelegate_DelegateWrapper(TScriptDelegate<FNotThreadSafeDelegateMode>&,TArray<FCFCoreMod,TSizedDefaultAllocator<32>>&,FCFCoreApiResponsePagination&)
+Global.FCFCoreApiSubscribeDelegate_DelegateWrapper(TScriptDelegate<FNotThreadSafeDelegateMode>&,FCFCoreMod&)
+Global.FCFCoreCreateModDelegate_DelegateWrapper(TScriptDelegate<FNotThreadSafeDelegateMode>&,FCFCoreMod&)
+Global.FCFCoreErrorWithModDelegate_DelegateWrapper(TScriptDelegate<FNotThreadSafeDelegateMode>&,FCFCoreError&,FCFCoreMod)
+Global.FCFCoreLibClientServerUpdateDelegate_DelegateWrapper(TScriptDelegate<FNotThreadSafeDelegateMode>&,TArray<FInstalledMod,TSizedDefaultAllocator<32>>&)
+Global.FCFCoreLibClientServerUpdateProgressDelegate_DelegateWrapper(TScriptDelegate<FNotThreadSafeDelegateMode>&,FModsUpdateProgress&,FLibraryProgress&,FCFCoreMod&)
+Global.FCFCoreLibGetInstalledModsDelegate_DelegateWrapper(TScriptDelegate<FNotThreadSafeDelegateMode>&,TArray<FInstalledMod,TSizedDefaultAllocator<32>>&)
+Global.FCFCoreLibInstallDelegate_DelegateWrapper(TScriptDelegate<FNotThreadSafeDelegateMode>&,FInstalledMod&)
+Global.FCFCoreLibPerformModsValidationDelegate_DelegateWrapper(TScriptDelegate<FNotThreadSafeDelegateMode>&,TArray<FInstalledMod,TSizedDefaultAllocator<32>>&)
+Global.FCFCoreLibUninstallDelegate_DelegateWrapper(TScriptDelegate<FNotThreadSafeDelegateMode>&,FInstalledMod&)
+Global.FCFCoreOnModUninstalled_DelegateWrapper(TMulticastScriptDelegate<FNotThreadSafeDelegateMode>&,FInstalledMod&)
+Global.FCFCoreUpdateModDelegate_DelegateWrapper(TScriptDelegate<FNotThreadSafeDelegateMode>&,FCFCoreMod&)
+Global.FMaterialUniformExpressionFmod::StaticType
+Global.FMaterialUniformExpressionFmod::taticType$initializer$::operator~
+Global.InternalConstructor<UMaterialExpressionFmod>(FObjectInitializer&)
+Global.InternalConstructor<UPrimalGameData>(FObjectInitializer&)
+Global.InternalVTableHelperCtorCaller<UMaterialExpressionFmod>(FVTableHelper&)
+Global.InternalVTableHelperCtorCaller<UPrimalGameData>(FVTableHelper&)
+Global.NAME_UPrimalGameData_BPInitializeGameData
+Global.NAME_UPrimalGameData_BPInitializeGameData$initializer$
+Global.NAME_UPrimalGameData_BPMergeModGameData
+Global.NAME_UPrimalGameData_BPMergeModGameData$initializer$
+Global.NAME_UPrimalGameData_BPPreventAddingLocalPlayer
+Global.NAME_UPrimalGameData_BPPreventAddingLocalPlayer$initializer$
+Global.NAME_UPrimalGameData_CallGeneTrait_BPGetCustomBlueprintData
+Global.NAME_UPrimalGameData_CallGeneTrait_BPGetCustomBlueprintData$initializer$
+Global.NAME_UPrimalGameData_GetGenericCombatMusic
+Global.NAME_UPrimalGameData_GetGenericCombatMusic$initializer$
+Global.NAME_UPrimalGameData_LoadedWorld
+Global.NAME_UPrimalGameData_LoadedWorld$initializer$
+Global.NAME_UPrimalGameData_TickedWorld
+Global.NAME_UPrimalGameData_TickedWorld$initializer$
+Global.NewObject<UPrimalGameData>(UObject*,UClass*,FName,EObjectFlags,UObject*,bool,FObjectInstancingGraph*,UPackage*)
+Global.cfcore::kApiUrlGetMod
+Global.cfcore::kApiUrlPostCreateMod
+Global.cfcore::kApiUrlPostReportMod
+Global.cfcore::kApiUrlPutUpdateMod
+Global.cfcore::kErrMsgDetectedUnavailMod
+IBaseDelegateInstance<void __cdecl(FModsUpdateProgress const &,TOptional<FLibraryProgress> const &,TOptional<FCFCoreMod> const &),FDefaultDelegateUserPolicy>.~IBaseDelegateInstance<void __cdecl(FModsUpdateProgress const &,TOptional<FLibraryProgress> const &,TOptional<FCFCoreMod> const &),FDefaultDelegateUserPolicy>()
+IBaseDelegateInstance<void __cdecl(TOptional<TArray<FInstalledMod,TSizedDefaultAllocator<32> > >,TOptional<FCFCoreError>),FDefaultDelegateUserPolicy>.~IBaseDelegateInstance<void __cdecl(TOptional<TArray<FInstalledMod,TSizedDefaultAllocator<32> > >,TOptional<FCFCoreError>),FDefaultDelegateUserPolicy>()
+ICFCoreUIBaseModel.Execute_OnEventReceived(UObject*,EGameModsEvent&,TArray<FCFCoreMod,TSizedDefaultAllocator<32>>&,TArray<FInstallProgressMod,TSizedDefaultAllocator<32>>&)
+ICFCoreUIBaseModel.Execute_OnEventReceived_Installed(UObject*,EGameModsEvent&,TArray<FInstalledMod,TSizedDefaultAllocator<32>>&,TArray<FInstallProgressMod,TSizedDefaultAllocator<32>>&)
+ICFCoreUIBaseModel.Execute_OnEventReceived_LibraryProgress(UObject*,EGameModsEvent&,FLibraryProgress&,TArray<FInstallProgressMod,TSizedDefaultAllocator<32>>&)
+ICFCoreUIBaseModel.OnEventReceived_Implementation(EGameModsEvent&,TArray<FCFCoreMod,TSizedDefaultAllocator<32>>&,TArray<FInstallProgressMod,TSizedDefaultAllocator<32>>&)
+ICFCoreUIBaseModel.OnEventReceived_Installed_Implementation(EGameModsEvent&,TArray<FInstalledMod,TSizedDefaultAllocator<32>>&,TArray<FInstallProgressMod,TSizedDefaultAllocator<32>>&)
+ICFCoreUIBaseModel.OnEventReceived_LibraryProgress_Implementation(EGameModsEvent&,FLibraryProgress&,TArray<FInstallProgressMod,TSizedDefaultAllocator<32>>&)
+IOnlineSubsystem.GetMod(unsigned__int64,FInstalledItemInfo&)
+IOnlineSubsystem.IsInstallingAnyMod()
+IOnlineSubsystem.IsWorkShopItemSubscribed(unsigned__int64)
+ImgDelayDescr.rvaHmod
+InternalImgDelayDescr.phmod
+KernelSet.dct2_mod
+KernelSet.dct3_mod
+PrimalGameData_eventBPMergeModGameData_Parms.AnotherGameData
+PrimalGameData_eventBPPreventAddingLocalPlayer_Parms.ControllerId
+PrimalGameData_eventBPPreventAddingLocalPlayer_Parms.FirstPC
+PrimalGameData_eventBPPreventAddingLocalPlayer_Parms.ForWorld
+PrimalGameData_eventBPPreventAddingLocalPlayer_Parms.NumLocalPlayers
+PrimalGameData_eventBPPreventAddingLocalPlayer_Parms.ReturnValue
+PrimalGameData_eventCallGeneTrait_BPGetCustomBlueprintData_Parms.DataName
+PrimalGameData_eventCallGeneTrait_BPGetCustomBlueprintData_Parms.InData
+PrimalGameData_eventCallGeneTrait_BPGetCustomBlueprintData_Parms.OutData
+PrimalGameData_eventCallGeneTrait_BPGetCustomBlueprintData_Parms.ReturnValue
+PrimalGameData_eventCallGeneTrait_BPGetCustomBlueprintData_Parms.~PrimalGameData_eventCallGeneTrait_BPGetCustomBlueprintData_Parms()
+PrimalGameData_eventGetGenericCombatMusic_Parms.ReturnValue
+PrimalGameData_eventGetGenericCombatMusic_Parms.forCharacter
+PrimalGameData_eventGetGenericCombatMusic_Parms.forEnemy
+PrimalGameData_eventLoadedWorld_Parms.TheWorld
+PrimalGameData_eventTickedWorld_Parms.DeltaTime
+PrimalGameData_eventTickedWorld_Parms.TheWorld
+QualifierFunc_MostNegativeMod_AllPositiveMods::__l2::<lambda_1>.MostNegativeMod
+ShooterPlayerController_eventClientShowDLCModPrompt_Parms.ForDLCMod
+TBinaryKernel<FVectorKernelMod,FRegisterHandler<__m128>,FConstantHandler<__m128>,FRegisterHandler<__m128>,4>.Optimize(FVectorVMCodeOptimizerContext&)
+TBinaryKernelHandler<FVectorKernelMod,FRegisterHandler<__m128>,FConstantHandler<__m128>,FConstantHandler<__m128>,4>.Exec(FVectorVMContext&)
+TBinaryKernelHandler<FVectorKernelMod,FRegisterHandler<__m128>,FConstantHandler<__m128>,FRegisterHandler<__m128>,4>.Exec(FVectorVMContext&)
+TBinaryKernelHandler<FVectorKernelMod,FRegisterHandler<__m128>,FRegisterHandler<__m128>,FConstantHandler<__m128>,4>.Exec(FVectorVMContext&)
+TBinaryKernelHandler<FVectorKernelMod,FRegisterHandler<__m128>,FRegisterHandler<__m128>,FRegisterHandler<__m128>,4>.Exec(FVectorVMContext&)
+TFuture<TArray<FInstalledMod,TSizedDefaultAllocator<32> > >.Consume()
+TFuture<TArray<TTuple<FCFCoreMod,FFile>,TSizedDefaultAllocator<32> > >.Consume()
+TFuture<TTuple<FCFCoreError,FInstalledMod> >.Consume()
+TFuture<TTuple<FCFCoreError,FInstalledMod> >.~TFuture<TTuple<FCFCoreError,FInstalledMod> >()
+TFuture<TTuple<FCFCoreError,TArray<TTuple<FCFCoreMod,FFile>,TSizedDefaultAllocator<32> > > >.Consume()
+TFuture<TTuple<FCFCoreError,TOptional<TArray<FCFCoreMod,TSizedDefaultAllocator<32> > > > >.Consume()
+TFutureBase<TArray<FInstalledMod,TSizedDefaultAllocator<32> > >.State
+TFutureBase<TArray<FInstalledMod,TSizedDefaultAllocator<32> > >::Then::__l2::<lambda_1>.ContinuationCapture
+TFutureBase<TArray<FInstalledMod,TSizedDefaultAllocator<32> > >::Then::__l2::<lambda_1>.PromiseCapture
+TFutureBase<TArray<FInstalledMod,TSizedDefaultAllocator<32> > >::Then::__l2::<lambda_1>.StateCapture
+TFutureBase<TArray<TTuple<FCFCoreError,FInstalledMod>,TSizedDefaultAllocator<32> > >.State
+TFutureBase<TArray<TTuple<FCFCoreError,FInstalledMod>,TSizedDefaultAllocator<32> > >::Then::__l2::<lambda_1>.ContinuationCapture
+TFutureBase<TArray<TTuple<FCFCoreError,FInstalledMod>,TSizedDefaultAllocator<32> > >::Then::__l2::<lambda_1>.PromiseCapture
+TFutureBase<TArray<TTuple<FCFCoreError,FInstalledMod>,TSizedDefaultAllocator<32> > >::Then::__l2::<lambda_1>.StateCapture
+TFutureBase<TArray<TTuple<FCFCoreMod,FFile>,TSizedDefaultAllocator<32> > >.State
+TFutureBase<TArray<TTuple<FCFCoreMod,FFile>,TSizedDefaultAllocator<32> > >::Then::__l2::<lambda_1>.ContinuationCapture
+TFutureBase<TArray<TTuple<FCFCoreMod,FFile>,TSizedDefaultAllocator<32> > >::Then::__l2::<lambda_1>.PromiseCapture
+TFutureBase<TArray<TTuple<FCFCoreMod,FFile>,TSizedDefaultAllocator<32> > >::Then::__l2::<lambda_1>.StateCapture
+TFutureBase<TOptional<FInstalledMod> >.State
+TFutureBase<TOptional<FInstalledMod> >::Then::__l2::<lambda_1>.ContinuationCapture
+TFutureBase<TOptional<FInstalledMod> >::Then::__l2::<lambda_1>.PromiseCapture
+TFutureBase<TOptional<FInstalledMod> >::Then::__l2::<lambda_1>.StateCapture
+TFutureBase<TTuple<FCFCoreError,FInstalledMod> >.State
+TFutureBase<TTuple<FCFCoreError,FInstalledMod> >::Next::__l2::<lambda_1>.Continuation
+TFutureBase<TTuple<FCFCoreError,FInstalledMod> >::Then::__l2::<lambda_1>.ContinuationCapture
+TFutureBase<TTuple<FCFCoreError,FInstalledMod> >::Then::__l2::<lambda_1>.PromiseCapture
+TFutureBase<TTuple<FCFCoreError,FInstalledMod> >::Then::__l2::<lambda_1>.StateCapture
+TFutureBase<TTuple<FCFCoreError,TArray<TTuple<FCFCoreMod,FFile>,TSizedDefaultAllocator<32> > > >.State
+TFutureBase<TTuple<FCFCoreError,TArray<TTuple<FCFCoreMod,FFile>,TSizedDefaultAllocator<32> > > >::Then::__l2::<lambda_1>.ContinuationCapture
+TFutureBase<TTuple<FCFCoreError,TArray<TTuple<FCFCoreMod,FFile>,TSizedDefaultAllocator<32> > > >::Then::__l2::<lambda_1>.PromiseCapture
+TFutureBase<TTuple<FCFCoreError,TArray<TTuple<FCFCoreMod,FFile>,TSizedDefaultAllocator<32> > > >::Then::__l2::<lambda_1>.StateCapture
+TFutureBase<TTuple<FCFCoreError,TOptional<TArray<FCFCoreMod,TSizedDefaultAllocator<32> > > > >.State
+TFutureBase<TTuple<FCFCoreError,TOptional<TArray<FCFCoreMod,TSizedDefaultAllocator<32> > > > >::Then::__l2::<lambda_1>.ContinuationCapture
+TFutureBase<TTuple<FCFCoreError,TOptional<TArray<FCFCoreMod,TSizedDefaultAllocator<32> > > > >::Then::__l2::<lambda_1>.PromiseCapture
+TFutureBase<TTuple<FCFCoreError,TOptional<TArray<FCFCoreMod,TSizedDefaultAllocator<32> > > > >::Then::__l2::<lambda_1>.StateCapture
+TFutureBase<TTuple<FCFCoreError,TOptional<TArray<FInstalledMod,TSizedDefaultAllocator<32> > > > >.State
+TFutureBase<TTuple<FCFCoreError,TOptional<TArray<FInstalledMod,TSizedDefaultAllocator<32> > > > >::Then::__l2::<lambda_1>.ContinuationCapture
+TFutureBase<TTuple<FCFCoreError,TOptional<TArray<FInstalledMod,TSizedDefaultAllocator<32> > > > >::Then::__l2::<lambda_1>.PromiseCapture
+TFutureBase<TTuple<FCFCoreError,TOptional<TArray<FInstalledMod,TSizedDefaultAllocator<32> > > > >::Then::__l2::<lambda_1>.StateCapture
+TFutureState<TArray<FInstalledMod,TSizedDefaultAllocator<32> > >.Result
+TFutureState<TArray<FInstalledMod,TSizedDefaultAllocator<32> > >.~TFutureState<TArray<FInstalledMod,TSizedDefaultAllocator<32> > >()
+TFutureState<TArray<TTuple<FCFCoreError,FInstalledMod>,TSizedDefaultAllocator<32> > >.Result
+TFutureState<TArray<TTuple<FCFCoreError,FInstalledMod>,TSizedDefaultAllocator<32> > >.~TFutureState<TArray<TTuple<FCFCoreError,FInstalledMod>,TSizedDefaultAllocator<32> > >()
+TFutureState<TArray<TTuple<FCFCoreMod,FFile>,TSizedDefaultAllocator<32> > >.Result
+TFutureState<TArray<TTuple<FCFCoreMod,FFile>,TSizedDefaultAllocator<32> > >.~TFutureState<TArray<TTuple<FCFCoreMod,FFile>,TSizedDefaultAllocator<32> > >()
+TFutureState<TOptional<FInstalledMod> >.Result
+TFutureState<TOptional<FInstalledMod> >.~TFutureState<TOptional<FInstalledMod> >()
+TFutureState<TTuple<FCFCoreError,FInstalledMod> >.Result
+TFutureState<TTuple<FCFCoreError,FInstalledMod> >.~TFutureState<TTuple<FCFCoreError,FInstalledMod> >()
+TFutureState<TTuple<FCFCoreError,TArray<TTuple<FCFCoreMod,FFile>,TSizedDefaultAllocator<32> > > >.Result
+TFutureState<TTuple<FCFCoreError,TArray<TTuple<FCFCoreMod,FFile>,TSizedDefaultAllocator<32> > > >.~TFutureState<TTuple<FCFCoreError,TArray<TTuple<FCFCoreMod,FFile>,TSizedDefaultAllocator<32> > > >()
+TFutureState<TTuple<FCFCoreError,TOptional<TArray<FCFCoreMod,TSizedDefaultAllocator<32> > > > >.Result
+TFutureState<TTuple<FCFCoreError,TOptional<TArray<FInstalledMod,TSizedDefaultAllocator<32> > > > >.Result
+TOptional<FCFCoreHighlightsMod>.Value
+TOptional<FCFCoreMod>.IsSet()
+TOptional<FCFCoreMod>.Value
+TOptional<FCFCoreMod>.operator->()
+TOptional<FCFCoreMod>.~TOptional<FCFCoreMod>()
+TOptional<FInstallProgressMod>.Value
+TOptional<FInstalledMod>.TOptional<FInstalledMod>(TOptional<FInstalledMod>&&)
+TOptional<FInstalledMod>.Value
+TOptional<FInstalledMod>.~TOptional<FInstalledMod>()
+TOptional<FRigVMFunction_MathDoubleMod>.Value
+TOptional<FRigVMFunction_MathFloatMod>.Value
+TOptional<FRigVMFunction_MathIntMod>.Value
+TOptional<FRigVMFunction_MathVectorMod>.Value
+TOptional<TArray<FCFCoreMod,TSizedDefaultAllocator<32> > >.Value
+TOptional<TArray<FInstalledMod,TSizedDefaultAllocator<32> > >.Reset()
+TOptional<TArray<FInstalledMod,TSizedDefaultAllocator<32> > >.TOptional<TArray<FInstalledMod,TSizedDefaultAllocator<32> > >(TOptional<TArray<FInstalledMod,TSizedDefaultAllocator<32>>>&&)
+TOptional<TArray<FInstalledMod,TSizedDefaultAllocator<32> > >.Value
+TOptional<TArray<FInstalledMod,TSizedDefaultAllocator<32> > >.~TOptional<TArray<FInstalledMod,TSizedDefaultAllocator<32> > >()
+TPromise<TArray<FInstalledMod,TSizedDefaultAllocator<32> > >.FutureRetrieved
+TPromise<TArray<TTuple<FCFCoreError,FInstalledMod>,TSizedDefaultAllocator<32> > >.EmplaceValue<TArray<TTuple<FCFCoreError,FInstalledMod>,TSizedDefaultAllocator<32> > const &>(TArray<TTuple<FCFCoreError,FInstalledMod>,TSizedDefaultAllocator<32>>&)
+TPromise<TArray<TTuple<FCFCoreError,FInstalledMod>,TSizedDefaultAllocator<32> > >.FutureRetrieved
+TPromise<TArray<TTuple<FCFCoreError,FInstalledMod>,TSizedDefaultAllocator<32> > >.TPromise<TArray<TTuple<FCFCoreError,FInstalledMod>,TSizedDefaultAllocator<32> > >()
+TPromise<TArray<TTuple<FCFCoreMod,FFile>,TSizedDefaultAllocator<32> > >.FutureRetrieved
+TPromise<TOptional<FInstalledMod> >.FutureRetrieved
+TPromise<TOptional<FInstalledMod> >.TPromise<TOptional<FInstalledMod> >()
+TPromise<TTuple<FCFCoreError,FInstalledMod> >.FutureRetrieved
+TPromise<TTuple<FCFCoreError,FInstalledMod> >.TPromise<TTuple<FCFCoreError,FInstalledMod> >()
+TPromise<TTuple<FCFCoreError,TArray<TTuple<FCFCoreMod,FFile>,TSizedDefaultAllocator<32> > > >.FutureRetrieved
+TPromise<TTuple<FCFCoreError,TArray<TTuple<FCFCoreMod,FFile>,TSizedDefaultAllocator<32> > > >.TPromise<TTuple<FCFCoreError,TArray<TTuple<FCFCoreMod,FFile>,TSizedDefaultAllocator<32> > > >()
+TPromise<TTuple<FCFCoreError,TOptional<TArray<FCFCoreMod,TSizedDefaultAllocator<32> > > > >.FutureRetrieved
+TPromise<TTuple<FCFCoreError,TOptional<TArray<FInstalledMod,TSizedDefaultAllocator<32> > > > >.FutureRetrieved
+TPromiseBase<TArray<FInstalledMod,TSizedDefaultAllocator<32> > >.State
+TPromiseBase<TArray<TTuple<FCFCoreError,FInstalledMod>,TSizedDefaultAllocator<32> > >.State
+TPromiseBase<TArray<TTuple<FCFCoreMod,FFile>,TSizedDefaultAllocator<32> > >.State
+TPromiseBase<TOptional<FInstalledMod> >.State
+TPromiseBase<TTuple<FCFCoreError,FInstalledMod> >.State
+TPromiseBase<TTuple<FCFCoreError,TArray<TTuple<FCFCoreMod,FFile>,TSizedDefaultAllocator<32> > > >.State
+TPromiseBase<TTuple<FCFCoreError,TOptional<TArray<FCFCoreMod,TSizedDefaultAllocator<32> > > > >.State
+TPromiseBase<TTuple<FCFCoreError,TOptional<TArray<FInstalledMod,TSizedDefaultAllocator<32> > > > >.State
+TSoftClassPtr<UPrimalGameData>.SoftObjectPtr
+TSoftClassPtr<UPrimalGameData>.~TSoftClassPtr<UPrimalGameData>()
+TSubclassOf<UPrimalGameData>.Class
+TTuple<FCFCoreError,FInstalledMod>.TTuple<FCFCoreError,FInstalledMod><FCFCoreError,FInstalledMod const &,0>(FCFCoreError&&,FInstalledMod&)
+TTuple<FCFCoreError,FInstalledMod>.~TTuple<FCFCoreError,FInstalledMod>()
+TTuple<FCFCoreError,TArray<TTuple<FCFCoreMod,FFile>,TSizedDefaultAllocator<32> > >.TTuple<FCFCoreError,TArray<TTuple<FCFCoreMod,FFile>,TSizedDefaultAllocator<32> > >(TTuple<FCFCoreError,TArray<TTuple<FCFCoreMod,FFile>,TSizedDefaultAllocator<32>>>&&)
+TTuple<FCFCoreError,TOptional<TArray<FCFCoreMod,TSizedDefaultAllocator<32> > > >.TTuple<FCFCoreError,TOptional<TArray<FCFCoreMod,TSizedDefaultAllocator<32> > > >(TTuple<FCFCoreError,TOptional<TArray<FCFCoreMod,TSizedDefaultAllocator<32>>>>&&)
+TTuple<FCFCoreError,TOptional<TArray<FInstalledMod,TSizedDefaultAllocator<32> > > >.TTuple<FCFCoreError,TOptional<TArray<FInstalledMod,TSizedDefaultAllocator<32> > > >(TTuple<FCFCoreError,TOptional<TArray<FInstalledMod,TSizedDefaultAllocator<32>>>>&&)
+UActiveSoundscapeColor.PitchMod
+UActiveSoundscapeColor.VolumeMod
+UCFCoreBPLibrary.SplitInstalledMods(TArray<FInstalledMod,TSizedDefaultAllocator<32>>&,FSplitInstalledModsOptions&,TArray<FInstalledMod,TSizedDefaultAllocator<32>>&,TArray<FInstalledMod,TSizedDefaultAllocator<32>>&)
+UCFCoreBPLibrary.UpdateInstalledModsLoadOrder(TArray<FInstalledMod,TSizedDefaultAllocator<32>>&,int,int,TArray<FInstalledMod,TSizedDefaultAllocator<32>>&,TArray<FInstalledModProperties,TSizedDefaultAllocator<32>>&)
+UCFCoreSubsystem.ApiGetMod(__int64,FCFCoreApiGetModDelegate,FCFCoreErrorDelegate&)
+UCFCoreSubsystem.ApiReportMod(__int64,__int64,FString,FCFCoreSuccessDelegate,FCFCoreErrorDelegate&)
+UCFCoreSubsystem.CreateMod(FCreateModRequest&,FString&,FCFCoreCreateModDelegate,FCFCoreErrorDelegate)
+UCFCoreSubsystem.InstallMod(FCFCoreMod,FCFCoreLibInstallProgressDelegate&,FCFCoreLibInstallDelegate&,FCFCoreErrorDelegate&)
+UCFCoreSubsystem.InstallModBetterError(FCFCoreMod,FCFCoreLibInstallProgressDelegate&,FCFCoreLibInstallDelegate&,FCFCoreErrorWithModDelegate&)
+UCFCoreSubsystem.InstallModExtended(FCFCoreMod&,FFile&,FInstallModAdditionalParams&,FCFCoreLibInstallProgressDelegate&,FCFCoreLibInstallDelegate&,FCFCoreErrorDelegate&)
+UCFCoreSubsystem.PerformModsValidation(TArray<FInstalledMod,TSizedDefaultAllocator<32>>&,FCFCoreLibPerformModsValidationDelegate,FCFCoreErrorDelegate)
+UCFCoreSubsystem.UninstallMod(__int64,FCFCoreLibUninstallDelegate,FCFCoreErrorDelegate)
+UCFCoreSubsystem.UpdateMod(__int64,FUpdateModRequest&,FString&,FCFCoreUpdateModDelegate,FCFCoreErrorDelegate)
+UCFCoreSubsystem.execApiGetMod(UObject*,FFrame&,void*const)
+UCFCoreSubsystem.execApiReportMod(UObject*,FFrame&,void*const)
+UCFCoreSubsystem.execCreateMod(UObject*,FFrame&,void*const)
+UCFCoreSubsystem.execInstallMod(UObject*,FFrame&,void*const)
+UCFCoreSubsystem.execUninstallMod(UObject*,FFrame&,void*const)
+UCFCoreSubsystem.execUpdateMod(UObject*,FFrame&,void*const)
+UCFCoreSubsystem::ApiGetMod::__l2::<lambda_1>.on_error
+UCFCoreSubsystem::ApiGetMod::__l2::<lambda_1>.on_mod
+UCFCoreSubsystem::ApiReportMod::__l2::<lambda_1>.OnError
+UCFCoreSubsystem::ApiReportMod::__l2::<lambda_1>.OnSuccess
+UCFCoreSubsystem::CreateMod::__l2::<lambda_1>.on_error
+UCFCoreSubsystem::CreateMod::__l2::<lambda_1>.on_success
+UCFCoreSubsystem::InstallMod::__l2::<lambda_1>.on_progress
+UCFCoreSubsystem::InstallMod::__l2::<lambda_2>.on_error
+UCFCoreSubsystem::InstallMod::__l2::<lambda_2>.on_installed
+UCFCoreSubsystem::InstallModBetterError::__l2::<lambda_2>.mod
+UCFCoreSubsystem::UninstallMod::__l2::<lambda_1>.__this
+UCFCoreSubsystem::UninstallMod::__l2::<lambda_1>.on_error
+UCFCoreSubsystem::UninstallMod::__l2::<lambda_1>.on_uninstalled
+UCFCoreSubsystem::UpdateMod::__l2::<lambda_1>.on_error
+UCFCoreSubsystem::UpdateMod::__l2::<lambda_1>.on_success
+UCFCoreUIInstallProgressModHelperFunctionsLibrary.UpdateInstallProgressModsLoadOrder(TArray<FInstallProgressMod,TSizedDefaultAllocator<32>>&,int,int,TArray<FInstallProgressMod,TSizedDefaultAllocator<32>>&,TArray<FInstalledModProperties,TSizedDefaultAllocator<32>>&)
+UCFCoreUIModel.GetModsInfo(TArray<FCFCoreMod,TSizedDefaultAllocator<32>>&,TArray<FInstallProgressMod,TSizedDefaultAllocator<32>>&)
+UCFCoreUIModel.OnEventReceived_Implementation(EGameModsEvent&,TArray<FCFCoreMod,TSizedDefaultAllocator<32>>&,TArray<FInstallProgressMod,TSizedDefaultAllocator<32>>&)
+UCFCoreUIModel.OnEventReceived_Installed_Implementation(EGameModsEvent&,TArray<FInstalledMod,TSizedDefaultAllocator<32>>&,TArray<FInstallProgressMod,TSizedDefaultAllocator<32>>&)
+UCFCoreUIModel.OnEventReceived_LibraryProgress_Implementation(EGameModsEvent&,FLibraryProgress&,TArray<FInstallProgressMod,TSizedDefaultAllocator<32>>&)
+UCFCoreUIModel.UpdateInstallStatus(FInstallProgressMod*,EGameModsEvent&)
+UCFCoreUIModel.UpdateModsInfo(TArray<FCFCoreMod,TSizedDefaultAllocator<32>>&,EGameModsEvent,TArray<FInstallProgressMod,TSizedDefaultAllocator<32>>&)
+UCFCoreUIModel.UpdateModsInfo(TArray<FInstalledMod,TSizedDefaultAllocator<32>>&,EGameModsEvent,TArray<FInstallProgressMod,TSizedDefaultAllocator<32>>&)
+UCFCoreUISubsystem.BroadcastEventToViews(EGameModsEvent&,TArray<FInstallProgressMod,TSizedDefaultAllocator<32>>&,FCFCoreApiResponsePagination&)
+UCFCoreUISubsystem.CancelModInstallation(FCFCoreMod&)
+UCFCoreUISubsystem.ExecuteBaseEvent(EGameModsEvent&,FCFCoreMod&,FCFCoreApiResponsePagination&)
+UCFCoreUISubsystem.ExecuteBaseEvent(EGameModsEvent&,FInstalledMod&,FCFCoreApiResponsePagination&)
+UCFCoreUISubsystem.ExecuteBaseEvent(EGameModsEvent&,TArray<FCFCoreMod,TSizedDefaultAllocator<32>>&,FCFCoreApiResponsePagination&,int)
+UCFCoreUISubsystem.execInstallMod(UObject*,FFrame&,void*const)
+UCFCoreUISubsystem.execMakeFInstallProgressMod(UObject*,FFrame&,void*const)
+UCFCoreUISubsystem.execPurchaseMod(UObject*,FFrame&,void*const)
+UCFCoreUISubsystem.execSetMod(UObject*,FFrame&,void*const)
+UCFCoreUISubsystem.execUninstallMod(UObject*,FFrame&,void*const)
+UCFCoreUISubsystem.execUpdateMod(UObject*,FFrame&,void*const)
+UClass.GetDefaultObject<UPrimalGameData>()
+UDataListEntryButton_HostSession.SetActivatedMod(bool)
+UE.Core.Private.Tuple.TTupleBase<TIntegerSequence<unsigned int,0,1>,FCFCoreError,TOptional<TArray<FCFCoreMod,TSizedDefaultAllocator<32> > > >.~TTupleBase<TIntegerSequence<unsigned int,0,1>,FCFCoreError,TOptional<TArray<FCFCoreMod,TSizedDefaultAllocator<32> > > >()
+UE.Core.Private.Tuple.TTupleBase<TIntegerSequence<unsigned int,0,1>,FCFCoreError,TOptional<TArray<FInstalledMod,TSizedDefaultAllocator<32> > > >.~TTupleBase<TIntegerSequence<unsigned int,0,1>,FCFCoreError,TOptional<TArray<FInstalledMod,TSizedDefaultAllocator<32> > > >()
+UE.Shader.Fmod(UE::Shader::FValue&,UE::Shader::FValue&)
+UE.Shader.Private.BinaryOp<UE.Shader.Private.FOpFmod>(UE::Shader::Private::FOpFmod&,UE::Shader::FValue&,UE::Shader::FValue&)
+UE.Shader.Private.BinaryOpInPlace<UE.Shader.Private.FOpFmod>(UE::Shader::Private::FOpFmod&,UE::Shader::EValueType,UE::Shader::EValueType,TArrayView<UE::Shader::FValueComponent,int>&,int&)
+UE::Core::Private::Function::TFunctionRefBase<UE::Core::Private::Function::TFunctionStorage<0>,void __cdecl(enum EGameplayModEvaluationChannel,enum EGameplayModOp::Type,FAggregatorMod const &)>.Callable
+UE::Core::Private::Function::TFunctionRefBase<UE::Core::Private::Function::TFunctionStorage<0>,void __cdecl(enum EGameplayModEvaluationChannel,enum EGameplayModOp::Type,FAggregatorMod const &)>.Storage
+UEngine.IsNetBlockedMod(FString&,FString&)
+UKismetMathLibrary.execFMod(UObject*,FFrame&,void*const)
+UMaterialExpressionFmod.A
+UMaterialExpressionFmod.B
+UMaterialExpressionFmod.StaticClass()
+UMaterialExpressionFmod.StaticRegisterNativesUMaterialExpressionFmod()
+UMaterialExpressionFmod.UMaterialExpressionFmod(FObjectInitializer&)
+UMaterialExpressionFmod::{ctor}::__l2::FConstructorStatics.NAME_Math
+UModBackgroundDownloader.HandleUninstallComplete(TOptional<FInstalledMod>,TOptional<FCFCoreError>&,__int64)
+UModBackgroundDownloader.InsertIntoDynamicModCache(FCFCoreMod&)
+UModBackgroundDownloader.LoadCustomCosmetics(UWorld*,FInstalledMod&,TFunction<void__cdecl(void))
+UModBackgroundDownloader.OnDownloadComplete(TOptional<FInstalledMod>&,TOptional<FCFCoreError>&,__int64)
+UModBackgroundDownloader.OnQueryModFromCurseforge(TOptional<FCFCoreMod>,TOptional<FCFCoreApiResponseError>&,__int64)
+UModBackgroundDownloader.OnValidationComplete(TOptional<FInstalledMod>&,__int64)
+UModBackgroundDownloader.StartDownload(__int64,TDelegate<void__cdecl(bool,FInstalledMod&)>)
+UModBackgroundDownloader.Validate(TOptional<FInstalledMod>&,__int64)
+UModBackgroundDownloader::OnQueryModFromCurseforge::__l5::<lambda_1>.Mod
+UModDataAsset.MergeModDataAsset(UPrimalGameData*)
+UModularSynthComponent.execSetFilterFrequencyMod(UObject*,FFrame&,void*const)
+UModularSynthComponent.execSetFilterQMod(UObject*,FFrame&,void*const)
+UModularSynthComponent.execSetLFOFrequencyMod(UObject*,FFrame&,void*const)
+UModularSynthComponent.execSetLFOGainMod(UObject*,FFrame&,void*const)
+UModularSynthComponent.execSetOscFrequencyMod(UObject*,FFrame&,void*const)
+UModularSynthComponent.execSetOscGainMod(UObject*,FFrame&,void*const)
+UModularSynthComponent::SetFilterFrequencyMod::__l2::<lambda_1>.FilterFrequencyHz
+UModularSynthComponent::SetFilterFrequencyMod::__l2::<lambda_1>.__this
+UModularSynthComponent::SetFilterQMod::__l2::<lambda_1>.FilterQMod
+UModularSynthComponent::SetFilterQMod::__l2::<lambda_1>.__this
+UModularSynthComponent::SetLFOFrequencyMod::__l2::<lambda_1>.FrequencyModHz
+UModularSynthComponent::SetLFOFrequencyMod::__l2::<lambda_1>.LFOIndex
+UModularSynthComponent::SetLFOFrequencyMod::__l2::<lambda_1>.__this
+UModularSynthComponent::SetLFOGainMod::__l2::<lambda_1>.GainMod
+UModularSynthComponent::SetLFOGainMod::__l2::<lambda_1>.LFOIndex
+UModularSynthComponent::SetLFOGainMod::__l2::<lambda_1>.__this
+UModularSynthComponent::SetOscFrequencyMod::__l2::<lambda_1>.OscFreqMod
+UModularSynthComponent::SetOscFrequencyMod::__l2::<lambda_1>.OscIndex
+UModularSynthComponent::SetOscFrequencyMod::__l2::<lambda_1>.__this
+UModularSynthComponent::SetOscGainMod::__l2::<lambda_1>.OscGainMod
+UModularSynthComponent::SetOscGainMod::__l2::<lambda_1>.OscIndex
+UModularSynthComponent::SetOscGainMod::__l2::<lambda_1>.__this
+UPrimalGameData.AbilityDescriptions
+UPrimalGameData.AbilityDescriptionsMap
+UPrimalGameData.AchievementIDSet
+UPrimalGameData.AchievementIDs
+UPrimalGameData.ActionWheelClickSound
+UPrimalGameData.ActionWheelProgressCompleteSound
+UPrimalGameData.ActionWheelProgressSound
+UPrimalGameData.ActionWheelSelectSound
+UPrimalGameData.ActiveSkillTriggered_Sound
+UPrimalGameData.ActorToSpawnUponEnemyCoreStructureDeath
+UPrimalGameData.AddPartBoneModifiers(USkeletalMeshComponent*,TArray<FBoneModifierRange,TSizedDefaultAllocator<32>>&,float,TArray<FBoneModifier,TSizedDefaultAllocator<32>>&)
+UPrimalGameData.AdditionalAllowDownloadDinoClasses
+UPrimalGameData.AdditionalAnimationsPreventInput
+UPrimalGameData.AdditionalBuffPostProcessEffects
+UPrimalGameData.AdditionalDeathPostProcessEffect
+UPrimalGameData.AdditionalDefaultBuffs
+UPrimalGameData.AdditionalDefaultMapItemSets
+UPrimalGameData.AdditionalDinoEntries
+UPrimalGameData.AdditionalEggItemsToSpawn
+UPrimalGameData.AdditionalEggWeightsToSpawn
+UPrimalGameData.AdditionalEngramBlueprintClasses
+UPrimalGameData.AdditionalExplorerNoteSpawns
+UPrimalGameData.AdditionalExtraEggItems
+UPrimalGameData.AdditionalFacialHairStyleDefinitions
+UPrimalGameData.AdditionalHeadHairStyleDefinitions
+UPrimalGameData.AdditionalHumanFemaleAnimMontagesOverrides
+UPrimalGameData.AdditionalHumanFemaleAnimSequenceOverrides
+UPrimalGameData.AdditionalHumanFemaleOverrideAnimBlueprints
+UPrimalGameData.AdditionalHumanMaleAnimMontagesOverrides
+UPrimalGameData.AdditionalHumanMaleAnimSequenceOverrides
+UPrimalGameData.AdditionalHumanMaleOverrideAnimBlueprints
+UPrimalGameData.AdditionalInvalidReferenceRedirects
+UPrimalGameData.AdditionalModDataAsset
+UPrimalGameData.AdditionalNamedExplorerNoteEntries
+UPrimalGameData.AdditionalStructureEngrams
+UPrimalGameData.AdditionalStructureVariants
+UPrimalGameData.AdditionalStructuresToBuild
+UPrimalGameData.AdditionalStructuresToPlace
+UPrimalGameData.AdditionalTradableOptions
+UPrimalGameData.AdditionalWorldBuffDefinitions
+UPrimalGameData.AimMagnetismIcon
+UPrimalGameData.AllDinosAchievementNameTags
+UPrimalGameData.AlternateImprintedRiderIcon
+UPrimalGameData.AlwaysAllowBuffClasses
+UPrimalGameData.AppIDItems
+UPrimalGameData.AppendBoneModifiers(USkeletalMeshComponent*,TArray<FBoneModifierNamed,TSizedDefaultAllocator<32>>&,TArray<FBoneModifier,TSizedDefaultAllocator<32>>&)
+UPrimalGameData.AppendGlobalBoneModifiers(USkeletalMeshComponent*,bool,TArray<FBoneModifier,TSizedDefaultAllocator<32>>&)
+UPrimalGameData.ArkChangeUIPlatform(FString)
+UPrimalGameData.AvailableMilestoneTrees
+UPrimalGameData.AvailableMissions
+UPrimalGameData.AvailableSkillTrees
+UPrimalGameData.BPCanTeamDamage(int,int,AActor*)
+UPrimalGameData.BPCanTeamTarget(int,int,int,AActor*,AActor*)
+UPrimalGameData.BPGetGameData()
+UPrimalGameData.BPGetGlobalUIData(bool&,TSubclassOf<UPrimalGlobalUIData>,TSubclassOf<UPrimalGlobalUIData>,TSubclassOf<UPrimalGlobalUIData>)
+UPrimalGameData.BPGetItemQualityIndex(float)
+UPrimalGameData.BPInitializeGameData()
+UPrimalGameData.BPMergeModGameData(UPrimalGameData*)
+UPrimalGameData.BPPreventAddingLocalPlayer(UWorld*,int,AShooterPlayerController*,int)
+UPrimalGameData.BabyCuddleIcon
+UPrimalGameData.BadgeGroupsNameTag
+UPrimalGameData.BaseExtraResources
+UPrimalGameData.BaseExtraResourcesContainersSoft
+UPrimalGameData.BaseExtraResourcesSoft
+UPrimalGameData.BlueprintBackground
+UPrimalGameData.BodyBonePresetOptions
+UPrimalGameData.BookendSubtitles
+UPrimalGameData.BuffPostProcessEffects
+UPrimalGameData.BuffTypeBackgrounds
+UPrimalGameData.BuffTypeForegrounds
+UPrimalGameData.BuffedIcon
+UPrimalGameData.CDOLiveUpdatesDataClass
+UPrimalGameData.CacheOwnedCustomCosmetics
+UPrimalGameData.CachedBlacklistedCustomCosmetics
+UPrimalGameData.CachedValidatedWhitelistCustomCosmetics
+UPrimalGameData.CallGeneTrait_BPGetCustomBlueprintData(FName,FFunctionParams_NoArrays,FFunctionParams_NoArrays&)
+UPrimalGameData.CallGeneTrait_BPGetCustomBlueprintData_Implementation(FName,FFunctionParams_NoArrays,FFunctionParams_NoArrays&)
+UPrimalGameData.CanTeamDamage(int,int,AActor*)
+UPrimalGameData.CanTeamTarget(int,int,int,AActor*,AActor*,bool)
+UPrimalGameData.CarriedNotifyBuff
+UPrimalGameData.CheatDestroyFoliageDamageType
+UPrimalGameData.ColorDefinitions
+UPrimalGameData.CombatMusicDay
+UPrimalGameData.CombatMusicDay_Heavy
+UPrimalGameData.CombatMusicNight
+UPrimalGameData.CombatMusicNight_Heavy
+UPrimalGameData.ConstructedSparseDataOverrideManagers
+UPrimalGameData.CopySettingsVisualIndicatorMaterial
+UPrimalGameData.CopySettingsVisualIndicatorMesh
+UPrimalGameData.CoreAppIDItems
+UPrimalGameData.CoreGlobalNPCRandomSpawnClassWeights
+UPrimalGameData.CoreNPCSpawnEntriesContainerAdditions
+UPrimalGameData.CoreOverrideSupplyCrateItems
+UPrimalGameData.CoreTradableOptions
+UPrimalGameData.CoreWorldBuffDefinitions
+UPrimalGameData.CorpseLocatorEffect
+UPrimalGameData.CrossPlayGeneric
+UPrimalGameData.CrossPlayPS5
+UPrimalGameData.CrossPlaySteam
+UPrimalGameData.CrossPlayXSX
+UPrimalGameData.CryopodPersistantBuffsMap
+UPrimalGameData.CustomBodyBonePresetOptions
+UPrimalGameData.CustomBotConfigVoiceCollectionOptions
+UPrimalGameData.CustomCosmeticEyebrowsCollection
+UPrimalGameData.CustomCosmeticEyebrowsDefinitions
+UPrimalGameData.CustomCosmeticFacialHairStyleCollection
+UPrimalGameData.CustomCosmeticFacialHairStyleDefinitions
+UPrimalGameData.CustomCosmeticHeadHairStyleCollection
+UPrimalGameData.CustomCosmeticHeadHairStyleDefinitions
+UPrimalGameData.CustomDinoTrackFilterOptions
+UPrimalGameData.CustomGeneTraits_Definitions
+UPrimalGameData.CustomPlayerConfigVoiceCollectionOptions
+UPrimalGameData.DLCStructsAndEnums
+UPrimalGameData.DLCs
+UPrimalGameData.DeathDestructionDepositInventoryClass
+UPrimalGameData.DefaultDestructionInstanceActorWithGeoCollection
+UPrimalGameData.DefaultDinoMinimalTooltipWidget
+UPrimalGameData.DefaultDynamicMaterialByteColors
+UPrimalGameData.DefaultDynamicMaterialByteFloats
+UPrimalGameData.DefaultDynamicMaterialByteVectors
+UPrimalGameData.DefaultFieldSystemActorClass
+UPrimalGameData.DefaultGameMode
+UPrimalGameData.DefaultGlobalProfileItemUnlocks
+UPrimalGameData.DefaultItemToolTipWidget
+UPrimalGameData.DefaultMapItemSets
+UPrimalGameData.DefaultMultiUseToolTipWidget
+UPrimalGameData.DefaultStructureDestroyedMeshActorClass
+UPrimalGameData.DefaultStructureNavArea
+UPrimalGameData.DefaultStructureSettings
+UPrimalGameData.DefaultThrallAttackDecisionDuration
+UPrimalGameData.DefaultToolTipWidget
+UPrimalGameData.DefaultTradableOptions
+UPrimalGameData.DefaultWaterNavArea
+UPrimalGameData.DinoBabySetups
+UPrimalGameData.DinoCountGameModeMultiply
+UPrimalGameData.DinoEntries
+UPrimalGameData.DinoEntriesObjects
+UPrimalGameData.DinoEntryMap
+UPrimalGameData.DinoGestationSetups
+UPrimalGameData.DinoIncrementedImprintingSound
+UPrimalGameData.DinoMinimalIcon
+UPrimalGameData.DinoOrderEffect_AttackTarget
+UPrimalGameData.DinoOrderEffect_MoveTo
+UPrimalGameData.DinoOrderIcon
+UPrimalGameData.DinoTrackFilterOptions
+UPrimalGameData.DistanceRenderFloatingTextEnemyClubARK
+UPrimalGameData.DynamicExplorerNoteSpawns
+UPrimalGameData.EggBoostIcon
+UPrimalGameData.EmoteGroups
+UPrimalGameData.EnemyCoreStructureDeathActorRadiusBuildCheck
+UPrimalGameData.EnemyFoundationPreventionRadius
+UPrimalGameData.EngramBackground
+UPrimalGameData.EngramBlueprintClasses
+UPrimalGameData.EngramBlueprintEntries
+UPrimalGameData.EngramGroupIcon
+UPrimalGameData.EngramPointPurchaseRanges
+UPrimalGameData.EquipmentTypeDefinitions
+UPrimalGameData.ExperienceIcon
+UPrimalGameData.ExplorerNoteAchievements
+UPrimalGameData.ExplorerNoteAudioSoundClass
+UPrimalGameData.ExplorerNoteEntries
+UPrimalGameData.ExplorerNoteEntriesObjects
+UPrimalGameData.ExplorerNoteIndexToNameMap
+UPrimalGameData.ExplorerNoteIntroIDs
+UPrimalGameData.ExplorerNoteNameToIndexMap
+UPrimalGameData.ExplorerNoteXPBuff
+UPrimalGameData.ExplorerNoteXPGain
+UPrimalGameData.ExtraEggItems
+UPrimalGameData.ExtraResources
+UPrimalGameData.ExtraStackedGameDataClasses
+UPrimalGameData.EyebrowMaskParamName
+UPrimalGameData.EyebrowsDefinitions
+UPrimalGameData.EyelashesDefinitions
+UPrimalGameData.FOVScaleMaterialParamCollection
+UPrimalGameData.FacialHairMaskParamName
+UPrimalGameData.FacialHairStyleDefinitions
+UPrimalGameData.FacialHairStylesEntriesObjects
+UPrimalGameData.FertilizedAdditionalEggItemsToSpawn
+UPrimalGameData.FertilizedAdditionalEggWeightsToSpawn
+UPrimalGameData.FooterTemplate
+UPrimalGameData.GeneTraits_Definitions
+UPrimalGameData.GenericArrowPickedUpSound
+UPrimalGameData.GenericBatteryItemClass
+UPrimalGameData.GenericDroppedItemTemplate
+UPrimalGameData.GenericDroppedItemTemplateLowQuality
+UPrimalGameData.GenericWaterPostprocessAmbientSound
+UPrimalGameData.GenesisSeasonPassItems
+UPrimalGameData.GetAbilityForInputAction(FName&,FName&,FDinoAbilityInfo&)
+UPrimalGameData.GetAllAbilitiesForDino(FName&,TArray<FDinoAbilityInfo,TSizedDefaultAllocator<32>>&)
+UPrimalGameData.GetAllSelectableEyebrowDefinitions()
+UPrimalGameData.GetAllSelectableFacialHairDefinitions()
+UPrimalGameData.GetAllSelectableHeadHairDefinitions()
+UPrimalGameData.GetBPDinoAncestorsFromNonBP(TArray<FDinoAncestorsEntry,TSizedDefaultAllocator<32>>)
+UPrimalGameData.GetBitmaskForBuffs(TArray<APrimalBuff*,TSizedDefaultAllocator<32>>)
+UPrimalGameData.GetBuffsForBitmask(int)
+UPrimalGameData.GetClassAdditions(TArray<TSubclassOf<UObject>,TSizedDefaultAllocator<32>>&,TArray<FClassAddition,TSizedDefaultAllocator<32>>&,TSubclassOf<UObject>)
+UPrimalGameData.GetColorForDefinition(int)
+UPrimalGameData.GetCosmeticEyebrowDefinition(__int64,int,bool)
+UPrimalGameData.GetCosmeticFacialHairDefinition(__int64,int,bool)
+UPrimalGameData.GetCosmeticHeadHairDefinition(__int64,int,bool)
+UPrimalGameData.GetDataListEntries(TArray<IDataListEntryInterface*,TSizedDefaultAllocator<32>>&,int,bool,signedchar,TArray<FString,TSizedDefaultAllocator<32>>*,UObject*,wchar_t*,signedchar,wchar_t*,bool,bool,bool,signedchar)
+UPrimalGameData.GetDefinitionIndexForColorName(FName)
+UPrimalGameData.GetDinoBabySetup(FName)
+UPrimalGameData.GetDinoEntry(TSubclassOf<APrimalDinoCharacter>)
+UPrimalGameData.GetDinoEntryByTag(FName)
+UPrimalGameData.GetDinoEntrySoft(TSoftClassPtr<APrimalDinoCharacter>)
+UPrimalGameData.GetDinoGestationSetup(FName)
+UPrimalGameData.GetEngramEntryMapIcon(IDataListEntryInterface*)
+UPrimalGameData.GetEngramRequirementLevel(UClass*)
+UPrimalGameData.GetEntryCustomColor(IDataListEntryInterface*,FLinearColor&,FLinearColor*)
+UPrimalGameData.GetEntryDefaultEnabled(IDataListEntryInterface*)
+UPrimalGameData.GetEntryDefaultTextOverride(IDataListEntryInterface*)
+UPrimalGameData.GetEntryExtraIcons(IDataListEntryInterface*,TArray<UTexture2D*,TSizedDefaultAllocator<32>>&)
+UPrimalGameData.GetExplorerNoteDescription(int)
+UPrimalGameData.GetExplorerNoteName(int)
+UPrimalGameData.GetEyebrowDataFromUIIndex(int)
+UPrimalGameData.GetFacialHairDataFromUIIndex(int)
+UPrimalGameData.GetGenericCombatMusic(APrimalCharacter*,APrimalCharacter*)
+UPrimalGameData.GetGenericCombatMusic_Implementation(APrimalCharacter*,APrimalCharacter*)
+UPrimalGameData.GetGlobalColorTable()
+UPrimalGameData.GetHeadHairDataFromUIIndex(int)
+UPrimalGameData.GetIndexDynamicMatBytesByName(FName)
+UPrimalGameData.GetIsItemBlacklisted(TSoftClassPtr<UPrimalItem>)
+UPrimalGameData.GetItemQualityIndex(float)
+UPrimalGameData.GetLevelExperienceRamp(ELevelExperienceRampType::Type)
+UPrimalGameData.GetLevelMax(ELevelExperienceRampType::Type)
+UPrimalGameData.GetLevelXP(ELevelExperienceRampType::Type,int)
+UPrimalGameData.GetNamedExplorerNoteIndex(FName)
+UPrimalGameData.GetNamedTargetingTeamIndex(FName)
+UPrimalGameData.GetNonBPDinoAncestorsFromBP(TArray<FDinoAncestorsEntryBlueprint,TSizedDefaultAllocator<32>>)
+UPrimalGameData.GetObject()
+UPrimalGameData.GetPlayerLevelEngramPoints()
+UPrimalGameData.GetPlayerSpawnRegions(UWorld*)
+UPrimalGameData.GetPrivateStaticClass()
+UPrimalGameData.GetRedirectedClass(FString&,UObject*)
+UPrimalGameData.GetRedirectedClassFromRedirector(FInvalidReferenceRedirector&)
+UPrimalGameData.GetRemappedClass_HardHard(TArray<FClassRemapping,TSizedDefaultAllocator<32>>&,TSubclassOf<UObject>)
+UPrimalGameData.GetRemappedClass_HardSoft(TArray<FClassRemapping,TSizedDefaultAllocator<32>>&,FSoftObjectPath&)
+UPrimalGameData.GetRemappedClass_SoftSoft(TArray<FClassRemapping,TSizedDefaultAllocator<32>>&,FSoftObjectPath&)
+UPrimalGameData.GetStatusStateDefinitions(int)
+UPrimalGameData.GetTeamTargetingDesirabilityMultiplier(int,int)
+UPrimalGameData.GetUIDataFast()
+UPrimalGameData.GetUIIndexForEyebrowData(FCustomCosmeticHairstyleDataPair)
+UPrimalGameData.GetUIIndexForFacialHairData(FCustomCosmeticHairstyleDataPair)
+UPrimalGameData.GetUIIndexForHeadHairData(FCustomCosmeticHairstyleDataPair)
+UPrimalGameData.GetXPMax(ELevelExperienceRampType::Type)
+UPrimalGameData.GhostItemSkinPerEquipment
+UPrimalGameData.GhostItemSkinStructure
+UPrimalGameData.GlobalCuddleFoodList
+UPrimalGameData.GlobalGeneralArmorDegradationMultiplier
+UPrimalGameData.GlobalGeneralArmorRatingMultiplier
+UPrimalGameData.GlobalHarvestHealthMultiplierOverride
+UPrimalGameData.GlobalNPCRandomSpawnClassWeights
+UPrimalGameData.GlobalSpecificArmorDegradationMultiplier
+UPrimalGameData.GlobalSpecificArmorRatingMultiplier
+UPrimalGameData.GlobalUIDataClass
+UPrimalGameData.GlobalUIDataClass_PS5
+UPrimalGameData.GlobalUIDataClass_XSX
+UPrimalGameData.GrinderReplacements
+UPrimalGameData.HUDOverlayGestationTooltip
+UPrimalGameData.HairMaskParamName
+UPrimalGameData.Haptics
+UPrimalGameData.HasCosmeticEyebrowDefinition(__int64,int,bool)
+UPrimalGameData.HasCosmeticFacialHairDefinition(__int64,int,bool)
+UPrimalGameData.HasCosmeticHeadHairDefinition(__int64,int,bool)
+UPrimalGameData.HeadHairStyleDefinitions
+UPrimalGameData.HeadHairStylesEntriesObjects
+UPrimalGameData.HitMarkerCharacterSound
+UPrimalGameData.HitMarkerStructureSound
+UPrimalGameData.HostilePlayerBuff
+UPrimalGameData.HotbarSkillItemClass
+UPrimalGameData.ImprintedRiderIcon
+UPrimalGameData.Initialize(TArray<UModDataAsset*,TSizedDefaultAllocator<32>>&)
+UPrimalGameData.InvalidReferenceRedirects
+UPrimalGameData.IsCosmeticSkinWhitelisted(__int64,bool)
+UPrimalGameData.IsCosmeticSkinWhitelistedBP(__int64,bool)
+UPrimalGameData.IsCustomCosmeticEmote(FName)
+UPrimalGameData.ItemAchievementsList
+UPrimalGameData.ItemAchievementsName
+UPrimalGameData.ItemButtonRecentlySelectedBackground
+UPrimalGameData.ItemEngramMap
+UPrimalGameData.ItemQualityDefinitions
+UPrimalGameData.ItemSkinIcon
+UPrimalGameData.ItemSpawnBlacklistDataTable
+UPrimalGameData.ItemStatDefinitions
+UPrimalGameData.ItemTraitIcon
+UPrimalGameData.ItemTypeDefinitions
+UPrimalGameData.LevelExperienceRamps
+UPrimalGameData.LevelUpStingerSound
+UPrimalGameData.LoadSavedGameData()
+UPrimalGameData.LoadedCustomCosmeticSkins
+UPrimalGameData.LoadedWorld(UWorld*)
+UPrimalGameData.LocalIsGlobalExplorerNoteUnlocked(int)
+UPrimalGameData.LocalIsPerMapExplorerNoteUnlocked(int)
+UPrimalGameData.LockedToSeatingStructureParticle
+UPrimalGameData.MainMenuMapOverride
+UPrimalGameData.MainNameWordList
+UPrimalGameData.MapMovieOrderHelper
+UPrimalGameData.MasterColorTable
+UPrimalGameData.MasterDyeList
+UPrimalGameData.MasterDyeListLUT
+UPrimalGameData.MasterItemList
+UPrimalGameData.MateBoostIcon
+UPrimalGameData.MatingIcon
+UPrimalGameData.MaxDinoRadiusForPaintConsumption
+UPrimalGameData.MaxInventoryIcon
+UPrimalGameData.MaxLocalPlayers
+UPrimalGameData.MaxPaintDurationConsumption
+UPrimalGameData.MaxThreat
+UPrimalGameData.MeleeHitColorizeStructuresUI
+UPrimalGameData.MergeModData(UPrimalGameData*)
+UPrimalGameData.MilestoneCompleteEffect
+UPrimalGameData.MilestoneComplete_Sound
+UPrimalGameData.MinDinoRadiusForPaintConsumption
+UPrimalGameData.MinPaintDurationConsumption
+UPrimalGameData.ModCustomCosmeticEntries
+UPrimalGameData.ModDescription
+UPrimalGameData.ModIcon
+UPrimalGameData.ModName
+UPrimalGameData.ModWheelIcon
+UPrimalGameData.MultiAchievements
+UPrimalGameData.NameTagServerAdmin
+UPrimalGameData.NameTagTribeAdmin
+UPrimalGameData.NameTagWildcardAdmin
+UPrimalGameData.NamedExplorerNoteEntries
+UPrimalGameData.NamedTeamDefinitions
+UPrimalGameData.NearFeedIcon
+UPrimalGameData.NotifClass
+UPrimalGameData.OverrideCorpseLifespanFixed
+UPrimalGameData.OverridePhotoModeClass
+UPrimalGameData.OverridePlayerDataClass
+UPrimalGameData.OverrideServerPhysXSubsteps
+UPrimalGameData.OverrideServerPhysXSubstepsDeltaTime
+UPrimalGameData.OverrideUICustomOverlayClass
+UPrimalGameData.ParentDinoIcon
+UPrimalGameData.PerMapExplorerNoteLockedIcon
+UPrimalGameData.PhotoModeClass
+UPrimalGameData.PlayerCharacterGenderDefinitions
+UPrimalGameData.PlayerConfigVoiceCollectionOptions
+UPrimalGameData.PlayerLevelEngramPoints
+UPrimalGameData.PlayerLevelEngramPointsSP
+UPrimalGameData.PlayerMeshMaterialIndex
+UPrimalGameData.PlayerMinimalIcon
+UPrimalGameData.PlayerSpawnRegions
+UPrimalGameData.PointOfInterest_Icon_Player
+UPrimalGameData.PointOfInterest_Icon_TamingComplete
+UPrimalGameData.PointOfInterest_Icon_TamingInProgress
+UPrimalGameData.PointOfInterest_IndicatorColor_Default
+UPrimalGameData.PointOfInterest_IndicatorColor_ObjectiveComplete
+UPrimalGameData.PointOfInterest_ProgressBarColor_TamingAffinity
+UPrimalGameData.PostLoad()
+UPrimalGameData.PostProcess_ColorLUT
+UPrimalGameData.PostProcess_KnockoutBlur
+UPrimalGameData.PostProcess_LowHealth
+UPrimalGameData.PostRespawnUISound
+UPrimalGameData.PreRespawnUISound
+UPrimalGameData.PreSave(ITargetPlatform*)
+UPrimalGameData.PreventBuildStructureReasonStrings
+UPrimalGameData.PreventGrindingIcon
+UPrimalGameData.PrimaryResources
+UPrimalGameData.ProfilingDinos
+UPrimalGameData.ProfilingStructures
+UPrimalGameData.RadialSelecterNumDivisionsOverride
+UPrimalGameData.Remap_ActiveEventSupplyCrates
+UPrimalGameData.Remap_Engrams
+UPrimalGameData.Remap_Items
+UPrimalGameData.Remap_NPC
+UPrimalGameData.Remap_NPCSpawnEntries
+UPrimalGameData.Remap_ResourceComponents
+UPrimalGameData.Remap_SupplyCrates
+UPrimalGameData.RemoveEngramBlueprintClasses
+UPrimalGameData.SaveGameData()
+UPrimalGameData.SeamlessTransitionMapOverride
+UPrimalGameData.ServerExtraWorldSingletonActorClasses
+UPrimalGameData.SetCoreDefaults()
+UPrimalGameData.ShouldHideSpawnRegionFromSpawnUI(UWorld*,unsignedchar)
+UPrimalGameData.SinglePlayerLevelExperienceRamps
+UPrimalGameData.SkeletalPhysCustomBodyAdditionalIgnores
+UPrimalGameData.SoapItemTemplate
+UPrimalGameData.SoftTameLimitCryoIcon
+UPrimalGameData.Sound_AddItemToSlot
+UPrimalGameData.Sound_AddPinToMap
+UPrimalGameData.Sound_AddToCraftQueue
+UPrimalGameData.Sound_AddToCraftQueueAlt
+UPrimalGameData.Sound_ApplyDye
+UPrimalGameData.Sound_ApplyLevelPoint
+UPrimalGameData.Sound_ApplyLevelUp
+UPrimalGameData.Sound_ApplyPaint
+UPrimalGameData.Sound_CancelPlacingStructure
+UPrimalGameData.Sound_ChooseStructureRotation
+UPrimalGameData.Sound_ClearCraftQueue
+UPrimalGameData.Sound_ConfirmPlacingStructure
+UPrimalGameData.Sound_CorpseDecompose
+UPrimalGameData.Sound_CraftingTabToggle
+UPrimalGameData.Sound_DossierUnlocked
+UPrimalGameData.Sound_DropAllItems
+UPrimalGameData.Sound_DropInventoryItem
+UPrimalGameData.Sound_FailPlacingStructure
+UPrimalGameData.Sound_GenericBoardPassenger
+UPrimalGameData.Sound_GenericUnboardPassenger
+UPrimalGameData.Sound_InputPinDigit
+UPrimalGameData.Sound_ItemFinishCrafting
+UPrimalGameData.Sound_ItemFinishRepairing
+UPrimalGameData.Sound_ItemStartCrafting
+UPrimalGameData.Sound_ItemStartRepairing
+UPrimalGameData.Sound_ItemUseOnItem
+UPrimalGameData.Sound_LearnedEngram
+UPrimalGameData.Sound_MergeItemStack
+UPrimalGameData.Sound_PinRejected
+UPrimalGameData.Sound_PinValidated
+UPrimalGameData.Sound_ReconnectToCharacter
+UPrimalGameData.Sound_RefillWaterContainer
+UPrimalGameData.Sound_RemoveClipAmmo
+UPrimalGameData.Sound_RemoveItemFromSlot
+UPrimalGameData.Sound_RemoveItemSkin
+UPrimalGameData.Sound_RemovePinFromMap
+UPrimalGameData.Sound_SetRadioFrequency
+UPrimalGameData.Sound_SetTextGeneric
+UPrimalGameData.Sound_SplitItemStack
+UPrimalGameData.Sound_StartItemDrag
+UPrimalGameData.Sound_StartPlacingStructure
+UPrimalGameData.Sound_StopItemDrag
+UPrimalGameData.Sound_TamedDinos
+UPrimalGameData.Sound_TransferAllItemsFromRemote
+UPrimalGameData.Sound_TransferAllItemsToRemote
+UPrimalGameData.Sound_TransferItemFromRemote
+UPrimalGameData.Sound_TransferItemToRemote
+UPrimalGameData.Sound_TribeWarBegin
+UPrimalGameData.Sound_TribeWarEnd
+UPrimalGameData.SparseDataOverrideManager
+UPrimalGameData.SpecialExplorerNoteXPBuff
+UPrimalGameData.StarterNoteItem
+UPrimalGameData.StaticClass()
+UPrimalGameData.StaticRegisterNativesUPrimalGameData()
+UPrimalGameData.StatusStateDefinitions
+UPrimalGameData.StatusValueDefinitions
+UPrimalGameData.StatusValueModifierDescriptions
+UPrimalGameData.StructureDefaultOverlayToolTipWidget
+UPrimalGameData.SubtitleColors
+UPrimalGameData.TamedDinoLockedIcon
+UPrimalGameData.TamedDinoUnlockedIcon
+UPrimalGameData.TethererdIcon
+UPrimalGameData.TheNPCSpawnEntriesContainerAdditions
+UPrimalGameData.ThreateningPlayerBuff
+UPrimalGameData.TickedWorld(UWorld*,float)
+UPrimalGameData.TrackMissionSound
+UPrimalGameData.TribeXPSharePercent
+UPrimalGameData.TutorialDefinitions
+UPrimalGameData.TutorialDisplaySound
+UPrimalGameData.UISelectionIndexEyebrowMap
+UPrimalGameData.UISelectionIndexFacialHairMap
+UPrimalGameData.UISelectionIndexHeadHairMap
+UPrimalGameData.UPrimalGameData(FObjectInitializer&)
+UPrimalGameData.UnknownIcon
+UPrimalGameData.UnknownMaterial
+UPrimalGameData.UnlockIcon
+UPrimalGameData.UnlockableEmotes
+UPrimalGameData.UntrackMissionSound
+UPrimalGameData.VoiceChatIcon
+UPrimalGameData.VoiceChatMutedIcon
+UPrimalGameData.VolumetricDispatcherClass
+UPrimalGameData.WeaponAccessoryActivatedIcon
+UPrimalGameData.WheelBackColor
+UPrimalGameData.WheelFolderColor
+UPrimalGameData.WhiteListedCustomCosmeticModSkins
+UPrimalGameData.WhiteTexture
+UPrimalGameData.WorldBuffData
+UPrimalGameData._getUObject()
+UPrimalGameData.bAllowAdditionalLocalPlayersWithoutFirstPlayerPawn
+UPrimalGameData.bDisableSplitscreen
+UPrimalGameData.bDoNotConsumeDefaultARKInputs
+UPrimalGameData.bForceEnablePhysicsSimulation_DEPRECATED
+UPrimalGameData.bForceServerUseDinoList
+UPrimalGameData.bHasInitializedCosmetics
+UPrimalGameData.bInitialized
+UPrimalGameData.bPreventPhotoMode
+UPrimalGameData.bUsesCustomPlayerData
+UPrimalGameData.bWantsToRunMissions
+UPrimalGameData.execArkChangeUIPlatform(UObject*,FFrame&,void*const)
+UPrimalGameData.execBPCanTeamDamage(UObject*,FFrame&,void*const)
+UPrimalGameData.execBPCanTeamTarget(UObject*,FFrame&,void*const)
+UPrimalGameData.execBPGetGameData(UObject*,FFrame&,void*const)
+UPrimalGameData.execBPGetGlobalUIData(UObject*,FFrame&,void*const)
+UPrimalGameData.execBPGetItemQualityIndex(UObject*,FFrame&,void*const)
+UPrimalGameData.execCallGeneTrait_BPGetCustomBlueprintData(UObject*,FFrame&,void*const)
+UPrimalGameData.execGetAbilityForInputAction(UObject*,FFrame&,void*const)
+UPrimalGameData.execGetAllAbilitiesForDino(UObject*,FFrame&,void*const)
+UPrimalGameData.execGetAllSelectableEyebrowDefinitions(UObject*,FFrame&,void*const)
+UPrimalGameData.execGetAllSelectableFacialHairDefinitions(UObject*,FFrame&,void*const)
+UPrimalGameData.execGetAllSelectableHeadHairDefinitions(UObject*,FFrame&,void*const)
+UPrimalGameData.execGetBPDinoAncestorsFromNonBP(UObject*,FFrame&,void*const)
+UPrimalGameData.execGetBitmaskForBuffs(UObject*,FFrame&,void*const)
+UPrimalGameData.execGetBuffsForBitmask(UObject*,FFrame&,void*const)
+UPrimalGameData.execGetColorForDefinition(UObject*,FFrame&,void*const)
+UPrimalGameData.execGetCosmeticEyebrowDefinition(UObject*,FFrame&,void*const)
+UPrimalGameData.execGetCosmeticFacialHairDefinition(UObject*,FFrame&,void*const)
+UPrimalGameData.execGetCosmeticHeadHairDefinition(UObject*,FFrame&,void*const)
+UPrimalGameData.execGetDinoEntry(UObject*,FFrame&,void*const)
+UPrimalGameData.execGetDinoEntryByTag(UObject*,FFrame&,void*const)
+UPrimalGameData.execGetExplorerNoteDescription(UObject*,FFrame&,void*const)
+UPrimalGameData.execGetExplorerNoteName(UObject*,FFrame&,void*const)
+UPrimalGameData.execGetEyebrowDataFromUIIndex(UObject*,FFrame&,void*const)
+UPrimalGameData.execGetFacialHairDataFromUIIndex(UObject*,FFrame&,void*const)
+UPrimalGameData.execGetGenericCombatMusic(UObject*,FFrame&,void*const)
+UPrimalGameData.execGetHeadHairDataFromUIIndex(UObject*,FFrame&,void*const)
+UPrimalGameData.execGetIndexDynamicMatBytesByName(UObject*,FFrame&,void*const)
+UPrimalGameData.execGetLevelExperienceRamp(UObject*,FFrame&,void*const)
+UPrimalGameData.execGetLevelMax(UObject*,FFrame&,void*const)
+UPrimalGameData.execGetLevelXP(UObject*,FFrame&,void*const)
+UPrimalGameData.execGetNamedExplorerNoteIndex(UObject*,FFrame&,void*const)
+UPrimalGameData.execGetNonBPDinoAncestorsFromBP(UObject*,FFrame&,void*const)
+UPrimalGameData.execGetRedirectedClass(UObject*,FFrame&,void*const)
+UPrimalGameData.execGetRedirectedClassFromRedirector(UObject*,FFrame&,void*const)
+UPrimalGameData.execGetRemappedClass_HardHard(UObject*,FFrame&,void*const)
+UPrimalGameData.execGetStatusStateDefinitions(UObject*,FFrame&,void*const)
+UPrimalGameData.execGetUIIndexForEyebrowData(UObject*,FFrame&,void*const)
+UPrimalGameData.execGetUIIndexForFacialHairData(UObject*,FFrame&,void*const)
+UPrimalGameData.execGetUIIndexForHeadHairData(UObject*,FFrame&,void*const)
+UPrimalGameData.execGetXPMax(UObject*,FFrame&,void*const)
+UPrimalGameData.execHasCosmeticEyebrowDefinition(UObject*,FFrame&,void*const)
+UPrimalGameData.execHasCosmeticFacialHairDefinition(UObject*,FFrame&,void*const)
+UPrimalGameData.execHasCosmeticHeadHairDefinition(UObject*,FFrame&,void*const)
+UPrimalGameData.execIsCosmeticSkinWhitelistedBP(UObject*,FFrame&,void*const)
+UPrimalGameData.execIsCustomCosmeticEmote(UObject*,FFrame&,void*const)
+UPrimalGameData.execLocalIsGlobalExplorerNoteUnlocked(UObject*,FFrame&,void*const)
+UPrimalGameData.execLocalIsPerMapExplorerNoteUnlocked(UObject*,FFrame&,void*const)
+UPrimalGameData.execSaveGameData(UObject*,FFrame&,void*const)
+UPrimalGameData.~UPrimalGameData()
+UPrimalGameData::GetDataListEntries::__l2::<lambda_1>.__this
+UPrimalGameData::Initialize::__l202::<lambda_3>.LUT
+UPrimalGameData::Initialize::__l202::<lambda_3>.__this
+UPrimalGlobals.PassivePrimalGameData
+UPrimalGlobals.PrimalGameData
+UPrimalGlobals.PrimalGameDataAsset
+UPrimalGlobals.PrimalGameDataAssetExtended
+UPrimalGlobals.PrimalGameDataOverride
+UPrimalItem.OnModDownloadComplete(bool,FInstalledMod&)
+UShooterCheatManager.OwnsPremiumMod(FString&)
+UShooterCheatManager.execOwnsPremiumMod(UObject*,FFrame&,void*const)
+UShooterEngine.HandleOnModUninstalledEvent(FInstalledMod&)
+UShooterEngine.IsNetBlockedMod(FString&,FString&)
+UShooterEngine.LoadCustomCosmetics(TArray<FInstalledMod,TSizedDefaultAllocator<32>>&,TFunction<void__cdecl(void))
+UShooterEngine.LoadGameMods(TArray<FInstalledMod,TSizedDefaultAllocator<32>>&,bool)
+UShooterEngine.ValidatedLoadCustomCosmetics(TArray<FInstalledMod,TSizedDefaultAllocator<32>>&,TFunction<void__cdecl(void))
+UShooterGameInstance.DisableDownloadedMod(FInstalledMod&)
+UShooterGameInstance.EnableDownloadedMod(FInstalledMod&,bool,bool)
+UShooterGameInstance.ModHasCategory(FInstalledMod&,FString&)
+UShooterGameInstance::EnableDownloadedMod::__l39::<lambda_3>.PakFilesMounted
+UShooterGameInstance::EnableDownloadedMod::__l39::<lambda_3>.PluginFiles
+USoundSubmix::PushModulationChanges::__l5::<lambda_1>.DryMod
+USoundSubmix::PushModulationChanges::__l5::<lambda_1>.VolMod
+USoundSubmix::PushModulationChanges::__l5::<lambda_1>.WetMod
+USubmixEffectFilterPreset.execSetFilterCutoffFrequencyMod(UObject*,FFrame&,void*const)
+USubmixEffectFilterPreset.execSetFilterQMod(UObject*,FFrame&,void*const)
+USubmixEffectFilterPreset::SetFilterCutoffFrequencyMod::__l2::<lambda_1>.InFrequency
+USubmixEffectFilterPreset::SetFilterQMod::__l2::<lambda_1>.InQ
+UVictoryCore.IsWorkshopIDSubscribed(FString&)
+UVictoryCore.OwnsCustomCosmeticMod(__int64)
+UVictoryCore.execIsWorkshopIDSubscribed(UObject*,FFrame&,void*const)
+UVictoryCore.execOwnsCustomCosmeticMod(UObject*,FFrame&,void*const)
+VTable.pMod
+WhereExprMod.orig
+WhereExprMod.pExpr
+WhereExprMod.pNext
+cfcore.ApiResponseHandlerJsonImpl<FModArrayResponse,TDelegate<void __cdecl(TOptional<TArray<FCFCoreMod,TSizedDefaultAllocator<32> > > const &,TOptional<FCFCoreApiResponseError> const &),FDefaultDelegateUserPolicy> >.HandleApiResponseError(FCFCoreApiResponseError&)
+cfcore.ApiResponseHandlerJsonImpl<FModArrayResponse,TDelegate<void __cdecl(TOptional<TArray<FCFCoreMod,TSizedDefaultAllocator<32> > > const &,TOptional<FCFCoreApiResponseError> const &),FDefaultDelegateUserPolicy> >.HandleProgress(cfcore::HttpProgress&)
+cfcore.ApiResponseHandlerJsonImpl<FModArrayResponse,TDelegate<void __cdecl(TOptional<TArray<FCFCoreMod,TSizedDefaultAllocator<32> > > const &,TOptional<FCFCoreApiResponseError> const &),FDefaultDelegateUserPolicy> >.HandleResponse(cfcore::HttpResponse&)
+cfcore.ApiResponseHandlerJsonImpl<FModArrayResponse,TDelegate<void __cdecl(TOptional<TArray<FCFCoreMod,TSizedDefaultAllocator<32> > >,TOptional<FCFCoreApiResponseError> const &),FDefaultDelegateUserPolicy> >.ApiResponseHandlerJsonImpl<FModArrayResponse,TDelegate<void __cdecl(TOptional<TArray<FCFCoreMod,TSizedDefaultAllocator<32> > >,TOptional<FCFCoreApiResponseError> const &),FDefaultDelegateUserPolicy> >(TDelegate<void__cdecl(TOptional<TArray<FCFCoreMod,TSizedDefaultAllocator<32>>>,TOptional<FCFCoreApiResponseError>&)>)
+cfcore.ApiResponseHandlerJsonImpl<FModArrayResponse,TDelegate<void __cdecl(TOptional<TArray<FCFCoreMod,TSizedDefaultAllocator<32> > >,TOptional<FCFCoreApiResponseError> const &),FDefaultDelegateUserPolicy> >.HandleApiResponseError(FCFCoreApiResponseError&)
+cfcore.ApiResponseHandlerJsonImpl<FModArrayResponse,TDelegate<void __cdecl(TOptional<TArray<FCFCoreMod,TSizedDefaultAllocator<32> > >,TOptional<FCFCoreApiResponseError> const &),FDefaultDelegateUserPolicy> >.HandleProgress(cfcore::HttpProgress&)
+cfcore.ApiResponseHandlerJsonImpl<FModArrayResponse,TDelegate<void __cdecl(TOptional<TArray<FCFCoreMod,TSizedDefaultAllocator<32> > >,TOptional<FCFCoreApiResponseError> const &),FDefaultDelegateUserPolicy> >.HandleResponse(cfcore::HttpResponse&)
+cfcore.ApiResponseHandlerJsonImpl<FModResponse,TDelegate<void __cdecl(TOptional<FCFCoreMod> const &,TOptional<FCFCoreApiResponseError> const &),FDefaultDelegateUserPolicy> >.ApiResponseHandlerJsonImpl<FModResponse,TDelegate<void __cdecl(TOptional<FCFCoreMod> const &,TOptional<FCFCoreApiResponseError> const &),FDefaultDelegateUserPolicy> >(TDelegate<void__cdecl(TOptional<FCFCoreMod>&,TOptional<FCFCoreApiResponseError>&)>)
+cfcore.ApiResponseHandlerJsonImpl<FModResponse,TDelegate<void __cdecl(TOptional<FCFCoreMod> const &,TOptional<FCFCoreApiResponseError> const &),FDefaultDelegateUserPolicy> >.HandleApiResponseError(FCFCoreApiResponseError&)
+cfcore.ApiResponseHandlerJsonImpl<FModResponse,TDelegate<void __cdecl(TOptional<FCFCoreMod> const &,TOptional<FCFCoreApiResponseError> const &),FDefaultDelegateUserPolicy> >.HandleProgress(cfcore::HttpProgress&)
+cfcore.ApiResponseHandlerJsonImpl<FModResponse,TDelegate<void __cdecl(TOptional<FCFCoreMod> const &,TOptional<FCFCoreApiResponseError> const &),FDefaultDelegateUserPolicy> >.HandleResponse(cfcore::HttpResponse&)
+cfcore.ApiResponseHandlerJsonImpl<FModResponse,TDelegate<void __cdecl(TOptional<FCFCoreMod>,TOptional<FCFCoreApiResponseError> const &),FDefaultDelegateUserPolicy> >.HandleApiResponseError(FCFCoreApiResponseError&)
+cfcore.ApiResponseHandlerJsonImpl<FModResponse,TDelegate<void __cdecl(TOptional<FCFCoreMod>,TOptional<FCFCoreApiResponseError> const &),FDefaultDelegateUserPolicy> >.HandleProgress(cfcore::HttpProgress&)
+cfcore.ApiResponseHandlerJsonImpl<FModResponse,TDelegate<void __cdecl(TOptional<FCFCoreMod>,TOptional<FCFCoreApiResponseError> const &),FDefaultDelegateUserPolicy> >.HandleResponse(cfcore::HttpResponse&)
+cfcore.ApiResponseHandlerWithExtraParamJsonImpl<FModArrayResponse,TDelegate<void __cdecl(TOptional<TArray<FCFCoreMod,TSizedDefaultAllocator<32> > >,TOptional<FCFCoreApiResponsePagination>,TOptional<FCFCoreApiResponseError> const &),FDefaultDelegateUserPolicy>,FCFCoreApiResponsePagination>.ApiResponseHandlerWithExtraParamJsonImpl<FModArrayResponse,TDelegate<void __cdecl(TOptional<TArray<FCFCoreMod,TSizedDefaultAllocator<32> > >,TOptional<FCFCoreApiResponsePagination>,TOptional<FCFCoreApiResponseError> const &),FDefaultDelegateUserPolicy>,FCFCoreApiResponsePagination>(FName,TDelegate<void__cdecl(TOptional<TArray<FCFCoreMod,TSizedDefaultAllocator<32>>>,TOptional<FCFCoreApiResponsePagination>,TOptional<FCFCoreApiResponseError>&)>)
+cfcore.ApiResponseHandlerWithExtraParamJsonImpl<FModArrayResponse,TDelegate<void __cdecl(TOptional<TArray<FCFCoreMod,TSizedDefaultAllocator<32> > >,TOptional<FCFCoreApiResponsePagination>,TOptional<FCFCoreApiResponseError> const &),FDefaultDelegateUserPolicy>,FCFCoreApiResponsePagination>.HandleApiResponseError(FCFCoreApiResponseError&)
+cfcore.ApiResponseHandlerWithExtraParamJsonImpl<FModArrayResponse,TDelegate<void __cdecl(TOptional<TArray<FCFCoreMod,TSizedDefaultAllocator<32> > >,TOptional<FCFCoreApiResponsePagination>,TOptional<FCFCoreApiResponseError> const &),FDefaultDelegateUserPolicy>,FCFCoreApiResponsePagination>.HandleProgress(cfcore::HttpProgress&)
+cfcore.ApiResponseHandlerWithExtraParamJsonImpl<FModArrayResponse,TDelegate<void __cdecl(TOptional<TArray<FCFCoreMod,TSizedDefaultAllocator<32> > >,TOptional<FCFCoreApiResponsePagination>,TOptional<FCFCoreApiResponseError> const &),FDefaultDelegateUserPolicy>,FCFCoreApiResponsePagination>.HandleResponse(cfcore::HttpResponse&)
+cfcore.CFCoreApiAuthorizedImpl.GetModsSubscriptions(FCFCoreApiRequestPagination&,TDelegate<void__cdecl(TOptional<TArray<FCFCoreMod,TSizedDefaultAllocator<32>>>,TOptional<FCFCoreApiResponsePagination>,TOptional<FCFCoreApiResponseError>&)>)
+cfcore.CFCoreApiAuthorizedImpl.GetMyMods(TDelegate<void__cdecl(TOptional<TArray<FCFCoreMod,TSizedDefaultAllocator<32>>>&,TOptional<FCFCoreApiResponseError>&)>)
+cfcore.CFCoreApiAuthorizedImpl.ReportMod(__int64,__int64,FString,TDelegate<void__cdecl(TOptional<FCFCoreApiResponseError>&)>)
+cfcore.CFCoreApiAuthorizedImpl.Subscribe(FSubscribeRequest&,TDelegate<void__cdecl(TOptional<FCFCoreMod>&,TOptional<FCFCoreApiResponseError>&)>)
+cfcore.CFCoreApiImpl.CreateMod(FCreateModRequest,TSharedPtr<TArray<unsignedchar,TSizedDefaultAllocator<32>>,1>,TDelegate<void__cdecl(TOptional<FCFCoreMod>&,TOptional<FCFCoreApiResponseError>&)>)
+cfcore.CFCoreApiImpl.GetMod(__int64,TDelegate<void__cdecl(TOptional<FCFCoreMod>,TOptional<FCFCoreApiResponseError>&)>)
+cfcore.CFCoreApiImpl.GetMods(FCFCoreGetModsFilter&,TDelegate<void__cdecl(TOptional<TArray<FCFCoreMod,TSizedDefaultAllocator<32>>>,TOptional<FCFCoreApiResponseError>&)>)
+cfcore.CFCoreApiImpl.GetMods(TArray<__int64,TSizedDefaultAllocator<32>>&,TDelegate<void__cdecl(TOptional<TArray<FCFCoreMod,TSizedDefaultAllocator<32>>>,TOptional<FCFCoreApiResponseError>&)>)
+cfcore.CFCoreApiImpl.SearchMods(FCFCoreSearchModsFilter,FCFCoreApiRequestPagination,TDelegate<void__cdecl(TOptional<TArray<FCFCoreMod,TSizedDefaultAllocator<32>>>,TOptional<FCFCoreApiResponsePagination>,TOptional<FCFCoreApiResponseError>&)>)
+cfcore.CFCoreApiImpl.UpdateMod(__int64,FUpdateModRequest,TSharedPtr<TArray<unsignedchar,TSizedDefaultAllocator<32>>,1>,TDelegate<void__cdecl(TOptional<FCFCoreMod>&,TOptional<FCFCoreApiResponseError>&)>)
+cfcore.CFCoreClientServerLibraryImpl.AssureClientModsUpdated(TArray<__int64,TSizedDefaultAllocator<32>>&,TDelegate<void__cdecl(FModsUpdateProgress&,TOptional<FLibraryProgress>&,TOptional<FCFCoreMod>&)>,TDelegate<void__cdecl(TOptional<TArray<FInstalledMod,TSizedDefaultAllocator<32>>>,TOptional<FCFCoreError>)>,bool)
+cfcore.CFCoreClientServerLibraryImpl.AssureServerModsUpdated(FAssureServerModsUpdatedParams&,TDelegate<void__cdecl(FModsUpdateProgress&,TOptional<FLibraryProgress>&,TOptional<FCFCoreMod>&)>,TDelegate<void__cdecl(TOptional<TArray<FInstalledMod,TSizedDefaultAllocator<32>>>,TOptional<FCFCoreError>)>)
+cfcore.CFCoreClientServerLibraryImpl.GetInstalledMods(TSharedRef<TArray<__int64,TSizedDefaultAllocator<32>>,1>,TDelegate<void__cdecl(TArray<FInstalledMod,TSizedDefaultAllocator<32>>)>)
+cfcore.CFCoreCreationImpl.CreateMod(FCreateModRequest&,FString&,TDelegate<void__cdecl(TOptional<FCFCoreMod>&,TOptional<FCFCoreError>&)>)
+cfcore.CFCoreCreationImpl.CreateMod(FCreateModRequest&,TSharedPtr<TArray<unsignedchar,TSizedDefaultAllocator<32>>,1>,TDelegate<void__cdecl(TOptional<FCFCoreMod>&,TOptional<FCFCoreError>&)>)
+cfcore.CFCoreCreationImpl.UpdateMod(__int64,FUpdateModRequest&,FString&,TDelegate<void__cdecl(TOptional<FCFCoreMod>&,TOptional<FCFCoreError>&)>)
+cfcore.CFCoreCreationImpl.UpdateMod(__int64,FUpdateModRequest&,TSharedPtr<TArray<unsignedchar,TSizedDefaultAllocator<32>>,1>,TDelegate<void__cdecl(TOptional<FCFCoreMod>&,TOptional<FCFCoreError>&)>)
+cfcore.CFCoreLibraryImpl.GetInstalledMods(TDelegate<void__cdecl(TArray<FInstalledMod,TSizedDefaultAllocator<32>>&)>)
+cfcore.CFCoreLibraryImpl.GetInvalidInstalledMods(TArray<FInstalledMod,TSizedDefaultAllocator<32>>&)
+cfcore.CFCoreLibraryImpl.GetModInstallDirectory(FInstalledMod&)
+cfcore.CFCoreLibraryImpl.Install(FCFCoreMod&,FFile&,FInstallModAdditionalParams&,TDelegate<void__cdecl(FLibraryProgress&)>,TDelegate<void__cdecl(TOptional<FInstalledMod>&,TOptional<FCFCoreError>&)>)
+cfcore.CFCoreLibraryImpl.Install(FCFCoreMod&,FFile&,TDelegate<void__cdecl(FLibraryProgress&)>,TDelegate<void__cdecl(TOptional<FInstalledMod>&,TOptional<FCFCoreError>&)>)
+cfcore.CFCoreLibraryImpl.Install(FCFCoreMod,TDelegate<void__cdecl(FLibraryProgress&)>,TDelegate<void__cdecl(TOptional<FInstalledMod>&,TOptional<FCFCoreError>&)>)
+cfcore.CFCoreLibraryImpl.PerformModsValidation(TArray<FInstalledMod,TSizedDefaultAllocator<32>>&,TDelegate<void__cdecl(TOptional<TArray<FInstalledMod,TSizedDefaultAllocator<32>>>&,TOptional<FCFCoreError>&)>)
+cfcore.CFCoreLibraryImpl.StartInstall(FInstalledMod&,TSharedRef<cfcore::FInstallModParams,1>)
+cfcore.CFCoreLibraryImpl.Uninstall(__int64,TDelegate<void__cdecl(TOptional<FInstalledMod>,TOptional<FCFCoreError>&)>)
+cfcore.CFCoreLibraryImpl.ValidateInstallRequest(FCFCoreMod&,FFile*,FInstallModAdditionalParams&)
+cfcore.ClientServerLibraryClientImpl.AssureClientModsUpdated(TArray<__int64,TSizedDefaultAllocator<32>>&,TDelegate<void__cdecl(FModsUpdateProgress&,TOptional<FLibraryProgress>&,TOptional<FCFCoreMod>&)>,TDelegate<void__cdecl(TOptional<TArray<FInstalledMod,TSizedDefaultAllocator<32>>>,TOptional<FCFCoreError>)>,bool)
+cfcore.ClientServerLibraryClientImpl.AssurePremiumModsOwned(TSharedRef<TArray<TTuple<FCFCoreMod,FFile>,TSizedDefaultAllocator<32>>,1>)
+cfcore.ClientServerLibraryServerImpl.AssureServerModsUpdated(FAssureServerModsUpdatedParams&,TDelegate<void__cdecl(FModsUpdateProgress&,TOptional<FLibraryProgress>&,TOptional<FCFCoreMod>&)>,TDelegate<void__cdecl(TOptional<TArray<FInstalledMod,TSizedDefaultAllocator<32>>>,TOptional<FCFCoreError>)>)
+cfcore.ClientServerLibraryServerImpl.GetModFilePairs(TSharedRef<TArray<FCFCoreMod,TSizedDefaultAllocator<32>>,1>)
+cfcore.ClientServerLibraryServerImpl.HandleUnavailableMods(TSharedRef<TArray<FCFCoreMod,TSizedDefaultAllocator<32>>,1>)
+cfcore.ClientServerLibrarySharedImpl.AssureModsUninstalled(TSharedRef<TArray<TTuple<FCFCoreMod,FFile>,TSizedDefaultAllocator<32>>,1>,FInstallModAdditionalParams&,TSharedRef<TDelegate<void__cdecl(FModsUpdateProgress&,TOptional<FLibraryProgress>&,TOptional<FCFCoreMod>&)>,1>,TSharedRef<TDelegate<void__cdecl(TOptional<TArray<FInstalledMod,TSizedDefaultAllocator<32>>>,TOptional<FCFCoreError>)>,1>)
+cfcore.ClientServerLibrarySharedImpl.AssureModsUpdated(TSharedRef<TArray<TTuple<FCFCoreMod,FFile>,TSizedDefaultAllocator<32>>,1>,FInstallModAdditionalParams&,TSharedRef<TDelegate<void__cdecl(FModsUpdateProgress&,TOptional<FLibraryProgress>&,TOptional<FCFCoreMod>&)>,1>,TSharedRef<TDelegate<void__cdecl(TOptional<TArray<FInstalledMod,TSizedDefaultAllocator<32>>>,TOptional<FCFCoreError>)>,1>)
+cfcore.ClientServerLibrarySharedImpl.GetInstalledByIdsWithValidations(TSharedRef<TArray<TTuple<FCFCoreMod,FFile>,TSizedDefaultAllocator<32>>,1>)
+cfcore.ClientServerLibrarySharedImpl.GetModsToInstall(TSharedRef<TArray<TTuple<FCFCoreMod,FFile>,TSizedDefaultAllocator<32>>,1>,bool)
+cfcore.ClientServerLibrarySharedImpl.InstallMod(TTuple<FCFCoreMod,FFile>&,FInstallModAdditionalParams&,TSharedRef<TDelegate<void__cdecl(FModsUpdateProgress&,TOptional<FLibraryProgress>&,TOptional<FCFCoreMod>&)>,1>)
+cfcore.ClientServerLibrarySharedImpl.InstallMods(TArray<TTuple<FCFCoreMod,FFile>,TSizedDefaultAllocator<32>>&,FInstallModAdditionalParams&,TSharedRef<TDelegate<void__cdecl(FModsUpdateProgress&,TOptional<FLibraryProgress>&,TOptional<FCFCoreMod>&)>,1>)
+cfcore.ClientServerLibrarySharedImpl.PerformModsValidation(TSharedRef<TArray<FInstalledMod,TSizedDefaultAllocator<32>>,1>,TSharedRef<TArray<TTuple<FCFCoreMod,FFile>,TSizedDefaultAllocator<32>>,1>)
+cfcore.ClientServerLibrarySharedImpl.ShouldInstallModByFile(FFile&,FInstalledMod*)
+cfcore.ClientServerLibrarySharedImpl.ShouldInstallModByState(FInstalledMod*)
+cfcore.ClientServerLibrarySharedImpl.UninstallMod(TTuple<FCFCoreMod,FFile>&,FInstallModAdditionalParams&,TSharedRef<TDelegate<void__cdecl(FModsUpdateProgress&,TOptional<FLibraryProgress>&,TOptional<FCFCoreMod>&)>,1>)
+cfcore.ClientServerLibrarySharedImpl.UninstallMods(TArray<TTuple<FCFCoreMod,FFile>,TSizedDefaultAllocator<32>>&,FInstallModAdditionalParams&,TSharedRef<TDelegate<void__cdecl(FModsUpdateProgress&,TOptional<FLibraryProgress>&,TOptional<FCFCoreMod>&)>,1>)
+cfcore.ClientServerLibrarySharedImpl.ValidateModsInstallation(TSharedRef<TArray<TTuple<FCFCoreMod,FFile>,TSizedDefaultAllocator<32>>,1>)
+cfcore.DynamicContentServiceImpl.RemoveNonPremiumMods(TSharedRef<TSet<__int64,DefaultKeyFuncs<__int64,0>,FDefaultSetAllocator>,1>,TSharedRef<TArray<FCFCoreMod,TSizedDefaultAllocator<32>>,1>)
+cfcore.FingerprintsServiceImpl.CalcFingerprints(FInstalledMod,TArray<FFileModule,TSizedDefaultAllocator<32>>&,TSharedRef<TArray<cfcore::FModuleFingerprint,TSizedDefaultAllocator<32>>,1>)
+cfcore.FutureUtils.Parallel<TTuple<FCFCoreError,FInstalledMod> >(TSharedPtr<TArray<TFuture<TTuple<FCFCoreError,FInstalledMod>>,TSizedDefaultAllocator<32>>,1>)
+cfcore.InstallationCommandDeltaDiffSupportedImpl.GetModFileDeltaDiff(FInstalledMod&,TSharedRef<FFileDeltaDiff,1>)
+cfcore.InstalledModsInfoServiceImpl.CreateError(ECFCoreErrorCodes,FInstalledMod&)
+cfcore.InstalledModsInfoServiceImpl.GetInstalledMod(__int64)
+cfcore.InstalledModsInfoServiceImpl.GetInstalledMods(TArray<FInstalledMod,TSizedDefaultAllocator<32>>&)
+cfcore.InstalledModsInfoServiceImpl.GetLatestFile(FCFCoreMod&)
+cfcore.InstalledModsInfoServiceImpl.GetModDetailsFromServer(FCFCoreGetModsFilter&,TSharedRef<TArray<FCFCoreMod,TSizedDefaultAllocator<32>>,1>)
+cfcore.InstalledModsInfoServiceImpl.SaveChangesAndTrigger(FInstalledMod&,TSharedPtr<TPromise<TTuple<FCFCoreError,FInstalledMod>>,1>)
+cfcore.InstalledModsInfoServiceImpl.SetInstallFailed(FInstalledMod&)
+cfcore.InstalledModsInfoServiceImpl.SetInstalled(FInstalledMod&,FInstallModAdditionalParams&)
+cfcore.InstalledModsInfoServiceImpl.SetUnmanagedInstalledMods(TArray<FInstalledMod,TSizedDefaultAllocator<32>>&)
+cfcore.InstalledModsInfoServiceImpl.UpdateModDetails(TArray<FCFCoreMod,TSizedDefaultAllocator<32>>)
+cfcore.InstalledModsInfoServiceImpl.UpdateMods(TOptional<TArray<FCFCoreMod,TSizedDefaultAllocator<32>>>&)
+cfcore.InstalledModsInfoUnmanagedServiceImpl.AddNewUnamanagedMods(TSharedRef<TSet<FString,DefaultKeyFuncs<FString,0>,FDefaultSetAllocator>,1>,TSharedRef<TMap<FString,FInstalledMod,FDefaultSetAllocator,TDefaultMapHashableKeyFuncs<FString,FInstalledMod,0>>,1>)
+cfcore.InstalledModsInfoUnmanagedServiceImpl.FilterExistingMods(TSharedRef<TSet<FString,DefaultKeyFuncs<FString,0>,FDefaultSetAllocator>,1>,TSharedRef<TMap<FString,FInstalledMod,FDefaultSetAllocator,TDefaultMapHashableKeyFuncs<FString,FInstalledMod,0>>,1>,TSharedRef<TArray<FInstalledMod,TSizedDefaultAllocator<32>>,1>)
+cfcore.InstalledModsInfoUnmanagedServiceImpl.GetInstalledMod(__int64)
+cfcore.InstalledModsInfoUnmanagedServiceImpl.GetInstalledMods(TArray<FInstalledMod,TSizedDefaultAllocator<32>>&)
+cfcore.InstalledModsInfoUnmanagedServiceImpl.GetLatestFile(FCFCoreMod&)
+cfcore.InstalledModsInfoUnmanagedServiceImpl.GetModDetailsFromServer(FCFCoreGetModsFilter&,TSharedRef<TArray<FCFCoreMod,TSizedDefaultAllocator<32>>,1>)
+cfcore.InstalledModsInfoUnmanagedServiceImpl.SetInstallFailed(FInstalledMod&)
+cfcore.InstalledModsInfoUnmanagedServiceImpl.SetInstalled(FInstalledMod&,FInstallModAdditionalParams&)
+cfcore.InstalledModsInfoUnmanagedServiceImpl.SetUnmanagedInstalledMods(TArray<FInstalledMod,TSizedDefaultAllocator<32>>&)
+cfcore.InstalledModsInfoUnmanagedServiceImpl.UninstallRemovedUnmanagedMods(TSharedRef<TArray<FInstalledMod,TSizedDefaultAllocator<32>>,1>)
+cfcore.InstalledModsInfoUnmanagedServiceImpl.UpdateModDetails(TArray<FCFCoreMod,TSizedDefaultAllocator<32>>)
+cfcore.ModsInstallationServiceImpl.CancelInstall(FInstalledMod&)
+cfcore.ModsInstallationServiceImpl.Install(FInstalledMod&,FInstallModAdditionalParams&,TDelegate<void__cdecl(FLibraryProgress&)>)
+cfcore.ModsInstallationServiceImpl.Uninstall(FInstalledMod&)
+cfcore.ModsValidationServiceImpl.PerformModValidation(FInstalledMod&,FFile&)
+cfcore.ModsValidationServiceImpl.PerformModulesExistValidation(FInstalledMod&)
+cfcore.ModsValidationServiceImpl.PerformQuickValidation(TSharedRef<TArray<FInstalledMod,TSizedDefaultAllocator<32>>,1>)
+cfcore.ModsValidationServiceImpl.PerformValidation(TArray<FInstalledMod,TSizedDefaultAllocator<32>>&)
+cfcore::ApiResponseHandlerJsonImpl<FModArrayResponse,TDelegate<void __cdecl(TOptional<TArray<FCFCoreMod,TSizedDefaultAllocator<32> > > const &,TOptional<FCFCoreApiResponseError> const &),FDefaultDelegateUserPolicy> >.delegate_
+cfcore::ApiResponseHandlerJsonImpl<FModArrayResponse,TDelegate<void __cdecl(TOptional<TArray<FCFCoreMod,TSizedDefaultAllocator<32> > >,TOptional<FCFCoreApiResponseError> const &),FDefaultDelegateUserPolicy> >.delegate_
+cfcore::ApiResponseHandlerJsonImpl<FModResponse,TDelegate<void __cdecl(TOptional<FCFCoreMod> const &,TOptional<FCFCoreApiResponseError> const &),FDefaultDelegateUserPolicy> >.delegate_
+cfcore::ApiResponseHandlerJsonImpl<FModResponse,TDelegate<void __cdecl(TOptional<FCFCoreMod>,TOptional<FCFCoreApiResponseError> const &),FDefaultDelegateUserPolicy> >.delegate_
+cfcore::ApiResponseHandlerWithExtraParamJsonImpl<FModArrayResponse,TDelegate<void __cdecl(TOptional<TArray<FCFCoreMod,TSizedDefaultAllocator<32> > >,TOptional<FCFCoreApiResponsePagination>,TOptional<FCFCoreApiResponseError> const &),FDefaultDelegateUserPolicy>,FCFCoreApiResponsePagination>.delegate_
+cfcore::ApiResponseHandlerWithExtraParamJsonImpl<FModArrayResponse,TDelegate<void __cdecl(TOptional<TArray<FCFCoreMod,TSizedDefaultAllocator<32> > >,TOptional<FCFCoreApiResponsePagination>,TOptional<FCFCoreApiResponseError> const &),FDefaultDelegateUserPolicy>,FCFCoreApiResponsePagination>.extra_param_name_
+cfcore::CFCoreCreationImpl::CreateMod::__l2::<lambda_1>.__this
+cfcore::CFCoreCreationImpl::CreateMod::__l2::<lambda_1>.create_mod_request
+cfcore::CFCoreCreationImpl::CreateMod::__l2::<lambda_1>.delegate
+cfcore::CFCoreCreationImpl::UpdateMod::__l2::<lambda_1>.__this
+cfcore::CFCoreCreationImpl::UpdateMod::__l2::<lambda_1>.delegate
+cfcore::CFCoreCreationImpl::UpdateMod::__l2::<lambda_1>.mod_id
+cfcore::CFCoreCreationImpl::UpdateMod::__l2::<lambda_1>.update_mod_request
+cfcore::CFCoreLibraryImpl::StartInstall::__l2::<lambda_2>.installed_mod
+cfcore::CFCoreLibraryImpl::StartInstall::__l2::<lambda_2>::()::__l2::<lambda_1>.installed_mod
+cfcore::CFCoreLibraryImpl::Uninstall::__l2::<lambda_1>.opt_mod
+cfcore::ClientServerLibrarySharedImpl::InstallMod::__l2::<lambda_1>.mod
+cfcore::ClientServerLibrarySharedImpl::InstallMod::__l2::<lambda_1>.mods_update_progress
+cfcore::ClientServerLibrarySharedImpl::InstallMod::__l2::<lambda_1>.progrs
+cfcore::ClientServerLibrarySharedImpl::InstallMod::__l2::<lambda_2>.promise
+cfcore::ClientServerLibrarySharedImpl::UninstallMod::__l2::<lambda_1>.promise
+cfcore::FInstallModParams.mod
+cfcore::FInstallModRequest.installedMod
+cfcore::InstalledModsInfoServiceImpl::GetMainFile::__l2::<lambda_1>.mod
+cfcore::InstalledModsInfoServiceImpl::SaveChangesAndTrigger::__l2::<lambda_1>.installed_mod
+cfcore::InstalledModsInfoServiceImpl::UpdateMods::__l9::<lambda_1>.installed_mod
+cfcore::ModsInstallationServiceImpl::Uninstall::__l2::<lambda_2>.installed_mod
+cfcore::ModsValidationServiceImpl::PerformFileSizeValidation::__l2::<lambda_1>.mod
+cfcore::ModsValidationServiceImpl::PerformFileSizeValidation::__l2::<lambda_1>::()::__l2::<lambda_1>.mod
+APrimalCharacter.BP_AnimationPreventsInput()
+APrimalCharacter.BP_GetMaxSpeedModifier()
+APrimalCharacter.BP_IsCharacterHardAttached(bool,bool)
+APrimalCharacter.BP_ModifyInputAcceleration(UE::Math::TVector<double>&)
+APrimalCharacter.BP_ModifySavedMoveAcceleration_PostRep(UE::Math::TVector<double>&)
+APrimalCharacter.BP_ModifySavedMoveAcceleration_PreRep(UE::Math::TVector<double>&)
+APrimalCharacter.BP_OnEndCarried(bool,bool)
+APrimalCharacter.BP_OnJumpPressed()
+APrimalCharacter.BP_OnJumpReleased()
+APrimalCharacter.BP_OnSetDeath()
+APrimalCharacter.BP_OnSetRunning(bool)
+APrimalCharacter.BP_OnZoomIn()
+APrimalCharacter.BP_OnZoomInOrbitCam()
+APrimalCharacter.BP_OnZoomOut()
+Draw_textures::__l2::<lambda_1>.bp_src
+IGameplayTagAssetInterface.BP_GetOwnedGameplayTags()
+UListView.BP_OnEntryInitialized
+UListView.BP_OnItemClicked
+UListView.BP_OnItemDoubleClicked
+UListView.BP_OnItemIsHoveredChanged
+UListView.BP_OnItemScrolledIntoView
+UListView.BP_OnItemSelectionChanged
+UListView.BP_OnListViewScrolled
+UListViewBase.BP_OnEntryGenerated
+UListViewBase.BP_OnEntryReleased
+UMovieSceneCondition.BP_EvaluateCondition(FMovieSceneConditionContext&)
+UMovieSceneCondition.BP_GetCheckFrequency()
+UMovieSceneCondition.BP_GetCheckFrequency_Implementation()
+UMovieSceneCondition.BP_GetScope()
+UMovieSceneCondition.BP_GetScope_Implementation()
+UTreeView.BP_OnGetItemChildren
+cfcore.ApiHelperServiceImpl.CancelFileOperation(__int64)
+cfcore.ApiHelperServiceImpl.GetApiResponseError(cfcore::HttpResponse&)
+cfcore.ApiHelperServiceImpl.HandleApiResponse(cfcore::HttpResponse&,TSharedPtr<cfcore::IApiResponseHandler,1>)
+cfcore.ApiResponseHandlerEmptyImpl<TDelegate<void __cdecl(TOptional<FCFCoreApiResponseError> const &),FDefaultDelegateUserPolicy> >.ApiResponseHandlerEmptyImpl<TDelegate<void __cdecl(TOptional<FCFCoreApiResponseError> const &),FDefaultDelegateUserPolicy> >(TDelegate<void__cdecl(TOptional<FCFCoreApiResponseError>&)>)
+cfcore.ApiResponseHandlerEmptyImpl<TDelegate<void __cdecl(TOptional<FCFCoreApiResponseError> const &),FDefaultDelegateUserPolicy> >.HandleApiResponseError(FCFCoreApiResponseError&)
+cfcore.ApiResponseHandlerEmptyImpl<TDelegate<void __cdecl(TOptional<FCFCoreApiResponseError> const &),FDefaultDelegateUserPolicy> >.HandleProgress(cfcore::HttpProgress&)
+cfcore.ApiResponseHandlerEmptyImpl<TDelegate<void __cdecl(TOptional<FCFCoreApiResponseError> const &),FDefaultDelegateUserPolicy> >.HandleResponse(cfcore::HttpResponse&)
+cfcore.ApiResponseHandlerJsonImpl<FAuthTokenResponse,TDelegate<void __cdecl(TOptional<FAuthToken> const &,TOptional<FCFCoreApiResponseError> const &),FDefaultDelegateUserPolicy> >.ApiResponseHandlerJsonImpl<FAuthTokenResponse,TDelegate<void __cdecl(TOptional<FAuthToken> const &,TOptional<FCFCoreApiResponseError> const &),FDefaultDelegateUserPolicy> >(TDelegate<void__cdecl(TOptional<FAuthToken>&,TOptional<FCFCoreApiResponseError>&)>)
+cfcore.ApiResponseHandlerJsonImpl<FAuthTokenResponse,TDelegate<void __cdecl(TOptional<FAuthToken> const &,TOptional<FCFCoreApiResponseError> const &),FDefaultDelegateUserPolicy> >.HandleApiResponseError(FCFCoreApiResponseError&)
+cfcore.ApiResponseHandlerJsonImpl<FAuthTokenResponse,TDelegate<void __cdecl(TOptional<FAuthToken> const &,TOptional<FCFCoreApiResponseError> const &),FDefaultDelegateUserPolicy> >.HandleProgress(cfcore::HttpProgress&)
+cfcore.ApiResponseHandlerJsonImpl<FAuthTokenResponse,TDelegate<void __cdecl(TOptional<FAuthToken> const &,TOptional<FCFCoreApiResponseError> const &),FDefaultDelegateUserPolicy> >.HandleResponse(cfcore::HttpResponse&)
+cfcore.ApiResponseHandlerJsonImpl<FCreateModFileChunkedResponse,TDelegate<void __cdecl(TOptional<FModFileChunkedInfo> const &,TOptional<FCFCoreApiResponseError> const &),FDefaultDelegateUserPolicy> >.ApiResponseHandlerJsonImpl<FCreateModFileChunkedResponse,TDelegate<void __cdecl(TOptional<FModFileChunkedInfo> const &,TOptional<FCFCoreApiResponseError> const &),FDefaultDelegateUserPolicy> >(TDelegate<void__cdecl(TOptional<FModFileChunkedInfo>&,TOptional<FCFCoreApiResponseError>&)>)
+cfcore.ApiResponseHandlerJsonImpl<FCreateModFileChunkedResponse,TDelegate<void __cdecl(TOptional<FModFileChunkedInfo> const &,TOptional<FCFCoreApiResponseError> const &),FDefaultDelegateUserPolicy> >.HandleApiResponseError(FCFCoreApiResponseError&)
+cfcore.ApiResponseHandlerJsonImpl<FCreateModFileChunkedResponse,TDelegate<void __cdecl(TOptional<FModFileChunkedInfo> const &,TOptional<FCFCoreApiResponseError> const &),FDefaultDelegateUserPolicy> >.HandleProgress(cfcore::HttpProgress&)
+cfcore.ApiResponseHandlerJsonImpl<FCreateModFileChunkedResponse,TDelegate<void __cdecl(TOptional<FModFileChunkedInfo> const &,TOptional<FCFCoreApiResponseError> const &),FDefaultDelegateUserPolicy> >.HandleResponse(cfcore::HttpResponse&)
+cfcore.ApiResponseHandlerJsonImpl<FCreateModFileResponse,TDelegate<void __cdecl(TOptional<FUploadedModFile> const &,TOptional<FCFCoreApiResponseError> const &),FDefaultDelegateUserPolicy> >.ApiResponseHandlerJsonImpl<FCreateModFileResponse,TDelegate<void __cdecl(TOptional<FUploadedModFile> const &,TOptional<FCFCoreApiResponseError> const &),FDefaultDelegateUserPolicy> >(TDelegate<void__cdecl(TOptional<FUploadedModFile>&,TOptional<FCFCoreApiResponseError>&)>)
+cfcore.ApiResponseHandlerJsonImpl<FCreateModFileResponse,TDelegate<void __cdecl(TOptional<FUploadedModFile> const &,TOptional<FCFCoreApiResponseError> const &),FDefaultDelegateUserPolicy> >.HandleApiResponseError(FCFCoreApiResponseError&)
+cfcore.ApiResponseHandlerJsonImpl<FCreateModFileResponse,TDelegate<void __cdecl(TOptional<FUploadedModFile> const &,TOptional<FCFCoreApiResponseError> const &),FDefaultDelegateUserPolicy> >.HandleProgress(cfcore::HttpProgress&)
+cfcore.ApiResponseHandlerJsonImpl<FCreateModFileResponse,TDelegate<void __cdecl(TOptional<FUploadedModFile> const &,TOptional<FCFCoreApiResponseError> const &),FDefaultDelegateUserPolicy> >.HandleResponse(cfcore::HttpResponse&)
+cfcore.ApiResponseHandlerJsonImpl<FDirectDownloadDomainExResponse,TDelegate<void __cdecl(TOptional<FDirectDownloadDomainEx> const &,TOptional<FCFCoreApiResponseError> const &),FDefaultDelegateUserPolicy> >.HandleApiResponseError(FCFCoreApiResponseError&)
+cfcore.ApiResponseHandlerJsonImpl<FDirectDownloadDomainExResponse,TDelegate<void __cdecl(TOptional<FDirectDownloadDomainEx> const &,TOptional<FCFCoreApiResponseError> const &),FDefaultDelegateUserPolicy> >.HandleProgress(cfcore::HttpProgress&)
+cfcore.ApiResponseHandlerJsonImpl<FDirectDownloadDomainExResponse,TDelegate<void __cdecl(TOptional<FDirectDownloadDomainEx> const &,TOptional<FCFCoreApiResponseError> const &),FDefaultDelegateUserPolicy> >.HandleResponse(cfcore::HttpResponse&)
+cfcore.ApiResponseHandlerJsonImpl<FEntitlementsRedeemCodeResponse,TDelegate<void __cdecl(TOptional<FEntitlementCampaign> const &,TOptional<FCFCoreApiResponseError> const &),FDefaultDelegateUserPolicy> >.HandleApiResponseError(FCFCoreApiResponseError&)
+cfcore.ApiResponseHandlerJsonImpl<FEntitlementsRedeemCodeResponse,TDelegate<void __cdecl(TOptional<FEntitlementCampaign> const &,TOptional<FCFCoreApiResponseError> const &),FDefaultDelegateUserPolicy> >.HandleProgress(cfcore::HttpProgress&)
+cfcore.ApiResponseHandlerJsonImpl<FEntitlementsRedeemCodeResponse,TDelegate<void __cdecl(TOptional<FEntitlementCampaign> const &,TOptional<FCFCoreApiResponseError> const &),FDefaultDelegateUserPolicy> >.HandleResponse(cfcore::HttpResponse&)
+cfcore.ApiResponseHandlerJsonImpl<FGameResponse,TDelegate<void __cdecl(TOptional<FGame>,TOptional<FCFCoreApiResponseError> const &),FDefaultDelegateUserPolicy> >.HandleApiResponseError(FCFCoreApiResponseError&)
+cfcore.ApiResponseHandlerJsonImpl<FGameResponse,TDelegate<void __cdecl(TOptional<FGame>,TOptional<FCFCoreApiResponseError> const &),FDefaultDelegateUserPolicy> >.HandleProgress(cfcore::HttpProgress&)
+cfcore.ApiResponseHandlerJsonImpl<FGameResponse,TDelegate<void __cdecl(TOptional<FGame>,TOptional<FCFCoreApiResponseError> const &),FDefaultDelegateUserPolicy> >.HandleResponse(cfcore::HttpResponse&)
+cfcore.ApiResponseHandlerJsonImpl<FGetBlockedDetailsResponse,TDelegate<void __cdecl(TOptional<FBlockedDetails> const &,TOptional<FCFCoreApiResponseError> const &),FDefaultDelegateUserPolicy> >.HandleApiResponseError(FCFCoreApiResponseError&)
+cfcore.ApiResponseHandlerJsonImpl<FGetBlockedDetailsResponse,TDelegate<void __cdecl(TOptional<FBlockedDetails> const &,TOptional<FCFCoreApiResponseError> const &),FDefaultDelegateUserPolicy> >.HandleProgress(cfcore::HttpProgress&)
+cfcore.ApiResponseHandlerJsonImpl<FGetBlockedDetailsResponse,TDelegate<void __cdecl(TOptional<FBlockedDetails> const &,TOptional<FCFCoreApiResponseError> const &),FDefaultDelegateUserPolicy> >.HandleResponse(cfcore::HttpResponse&)
+cfcore.ApiResponseHandlerJsonImpl<FGetModFileDeltaDiffResponse,TDelegate<void __cdecl(TOptional<FFileDeltaDiff> const &,TOptional<FCFCoreApiResponseError> const &),FDefaultDelegateUserPolicy> >.HandleApiResponseError(FCFCoreApiResponseError&)
+cfcore.ApiResponseHandlerJsonImpl<FGetModFileDeltaDiffResponse,TDelegate<void __cdecl(TOptional<FFileDeltaDiff> const &,TOptional<FCFCoreApiResponseError> const &),FDefaultDelegateUserPolicy> >.HandleProgress(cfcore::HttpProgress&)
+cfcore.ApiResponseHandlerJsonImpl<FGetModFileDeltaDiffResponse,TDelegate<void __cdecl(TOptional<FFileDeltaDiff> const &,TOptional<FCFCoreApiResponseError> const &),FDefaultDelegateUserPolicy> >.HandleResponse(cfcore::HttpResponse&)
+cfcore.ApiResponseHandlerJsonImpl<FGetModsHighlightsResponse,TDelegate<void __cdecl(TOptional<FModsHighlights>,TOptional<FCFCoreApiResponseError> const &),FDefaultDelegateUserPolicy> >.HandleApiResponseError(FCFCoreApiResponseError&)
+cfcore.ApiResponseHandlerJsonImpl<FGetModsHighlightsResponse,TDelegate<void __cdecl(TOptional<FModsHighlights>,TOptional<FCFCoreApiResponseError> const &),FDefaultDelegateUserPolicy> >.HandleProgress(cfcore::HttpProgress&)
+cfcore.ApiResponseHandlerJsonImpl<FGetModsHighlightsResponse,TDelegate<void __cdecl(TOptional<FModsHighlights>,TOptional<FCFCoreApiResponseError> const &),FDefaultDelegateUserPolicy> >.HandleResponse(cfcore::HttpResponse&)
+cfcore.ApiResponseHandlerJsonImpl<FGetModsHighlightsV2Response,TDelegate<void __cdecl(TOptional<FModsHighlightsV2>,TOptional<FCFCoreApiResponseError> const &),FDefaultDelegateUserPolicy> >.HandleApiResponseError(FCFCoreApiResponseError&)
+cfcore.ApiResponseHandlerJsonImpl<FGetModsHighlightsV2Response,TDelegate<void __cdecl(TOptional<FModsHighlightsV2>,TOptional<FCFCoreApiResponseError> const &),FDefaultDelegateUserPolicy> >.HandleProgress(cfcore::HttpProgress&)
+cfcore.ApiResponseHandlerJsonImpl<FGetModsHighlightsV2Response,TDelegate<void __cdecl(TOptional<FModsHighlightsV2>,TOptional<FCFCoreApiResponseError> const &),FDefaultDelegateUserPolicy> >.HandleResponse(cfcore::HttpResponse&)
+cfcore.ApiResponseHandlerJsonImpl<FGetModsHighlightsV3Response,TDelegate<void __cdecl(TOptional<FModsHighlightsV3>,TOptional<FCFCoreApiResponseError> const &),FDefaultDelegateUserPolicy> >.HandleApiResponseError(FCFCoreApiResponseError&)
+cfcore.ApiResponseHandlerJsonImpl<FGetModsHighlightsV3Response,TDelegate<void __cdecl(TOptional<FModsHighlightsV3>,TOptional<FCFCoreApiResponseError> const &),FDefaultDelegateUserPolicy> >.HandleProgress(cfcore::HttpProgress&)
+cfcore.ApiResponseHandlerJsonImpl<FGetModsHighlightsV3Response,TDelegate<void __cdecl(TOptional<FModsHighlightsV3>,TOptional<FCFCoreApiResponseError> const &),FDefaultDelegateUserPolicy> >.HandleResponse(cfcore::HttpResponse&)
+cfcore.ApiResponseHandlerJsonImpl<FInitiatePurchaseResponse,TDelegate<void __cdecl(TOptional<FPurchaseDetails> const &,TOptional<FCFCoreApiResponseError> const &),FDefaultDelegateUserPolicy> >.HandleApiResponseError(FCFCoreApiResponseError&)
+cfcore.ApiResponseHandlerJsonImpl<FInitiatePurchaseResponse,TDelegate<void __cdecl(TOptional<FPurchaseDetails> const &,TOptional<FCFCoreApiResponseError> const &),FDefaultDelegateUserPolicy> >.HandleProgress(cfcore::HttpProgress&)
+cfcore.ApiResponseHandlerJsonImpl<FInitiatePurchaseResponse,TDelegate<void __cdecl(TOptional<FPurchaseDetails> const &,TOptional<FCFCoreApiResponseError> const &),FDefaultDelegateUserPolicy> >.HandleResponse(cfcore::HttpResponse&)
+cfcore.ApiResponseHandlerJsonImpl<FMeResponse,TDelegate<void __cdecl(TOptional<FMe> const &,TOptional<FCFCoreApiResponseError> const &),FDefaultDelegateUserPolicy> >.HandleApiResponseError(FCFCoreApiResponseError&)
+cfcore.ApiResponseHandlerJsonImpl<FMeResponse,TDelegate<void __cdecl(TOptional<FMe> const &,TOptional<FCFCoreApiResponseError> const &),FDefaultDelegateUserPolicy> >.HandleProgress(cfcore::HttpProgress&)
+cfcore.ApiResponseHandlerJsonImpl<FMeResponse,TDelegate<void __cdecl(TOptional<FMe> const &,TOptional<FCFCoreApiResponseError> const &),FDefaultDelegateUserPolicy> >.HandleResponse(cfcore::HttpResponse&)
+cfcore.ApiResponseHandlerJsonImpl<FMyRatingsResponse,TDelegate<void __cdecl(TOptional<FMyRatings> const &,TOptional<FCFCoreApiResponseError> const &),FDefaultDelegateUserPolicy> >.HandleApiResponseError(FCFCoreApiResponseError&)
+cfcore.ApiResponseHandlerJsonImpl<FMyRatingsResponse,TDelegate<void __cdecl(TOptional<FMyRatings> const &,TOptional<FCFCoreApiResponseError> const &),FDefaultDelegateUserPolicy> >.HandleProgress(cfcore::HttpProgress&)
+cfcore.ApiResponseHandlerJsonImpl<FMyRatingsResponse,TDelegate<void __cdecl(TOptional<FMyRatings> const &,TOptional<FCFCoreApiResponseError> const &),FDefaultDelegateUserPolicy> >.HandleResponse(cfcore::HttpResponse&)
+cfcore.ApiResponseHandlerJsonImpl<FSDKVersionResponse,TDelegate<void __cdecl(TOptional<FSDKVersion>,TOptional<FCFCoreApiResponseError> const &),FDefaultDelegateUserPolicy> >.HandleApiResponseError(FCFCoreApiResponseError&)
+cfcore.ApiResponseHandlerJsonImpl<FSDKVersionResponse,TDelegate<void __cdecl(TOptional<FSDKVersion>,TOptional<FCFCoreApiResponseError> const &),FDefaultDelegateUserPolicy> >.HandleProgress(cfcore::HttpProgress&)
+cfcore.ApiResponseHandlerJsonImpl<FSDKVersionResponse,TDelegate<void __cdecl(TOptional<FSDKVersion>,TOptional<FCFCoreApiResponseError> const &),FDefaultDelegateUserPolicy> >.HandleResponse(cfcore::HttpResponse&)
+cfcore.ApiResponseHandlerJsonImpl<FTermsResponse,TDelegate<void __cdecl(TOptional<FTerms> const &,TOptional<FCFCoreApiResponseError> const &),FDefaultDelegateUserPolicy> >.HandleApiResponseError(FCFCoreApiResponseError&)
+cfcore.ApiResponseHandlerJsonImpl<FTermsResponse,TDelegate<void __cdecl(TOptional<FTerms> const &,TOptional<FCFCoreApiResponseError> const &),FDefaultDelegateUserPolicy> >.HandleProgress(cfcore::HttpProgress&)
+cfcore.ApiResponseHandlerJsonImpl<FTermsResponse,TDelegate<void __cdecl(TOptional<FTerms> const &,TOptional<FCFCoreApiResponseError> const &),FDefaultDelegateUserPolicy> >.HandleResponse(cfcore::HttpResponse&)
+cfcore.ApiResponseHandlerJsonImpl<FUploadModFileChunkResponse,TDelegate<void __cdecl(bool const &,TOptional<FCFCoreApiResponseError> const &),FDefaultDelegateUserPolicy> >.HandleApiResponseError(FCFCoreApiResponseError&)
+cfcore.ApiResponseHandlerJsonImpl<FUploadModFileChunkResponse,TDelegate<void __cdecl(bool const &,TOptional<FCFCoreApiResponseError> const &),FDefaultDelegateUserPolicy> >.HandleProgress(cfcore::HttpProgress&)
+cfcore.ApiResponseHandlerJsonImpl<FUploadModFileChunkResponse,TDelegate<void __cdecl(bool const &,TOptional<FCFCoreApiResponseError> const &),FDefaultDelegateUserPolicy> >.HandleResponse(cfcore::HttpResponse&)
+cfcore.ApiResponseHandlerWithProgressImpl<FCreateModFileResponse,TDelegate<void __cdecl(TOptional<FUploadedModFile> const &,TOptional<FCFCoreApiResponseError> const &),FDefaultDelegateUserPolicy> >.HandleApiResponseError(FCFCoreApiResponseError&)
+cfcore.ApiResponseHandlerWithProgressImpl<FCreateModFileResponse,TDelegate<void __cdecl(TOptional<FUploadedModFile> const &,TOptional<FCFCoreApiResponseError> const &),FDefaultDelegateUserPolicy> >.HandleProgress(cfcore::HttpProgress&)
+cfcore.ApiResponseHandlerWithProgressImpl<FCreateModFileResponse,TDelegate<void __cdecl(TOptional<FUploadedModFile> const &,TOptional<FCFCoreApiResponseError> const &),FDefaultDelegateUserPolicy> >.HandleResponse(cfcore::HttpResponse&)
+cfcore.ApiResponseHandlerWithProgressImpl<FUploadModFileChunkResponse,TDelegate<void __cdecl(bool const &,TOptional<FCFCoreApiResponseError> const &),FDefaultDelegateUserPolicy> >.HandleApiResponseError(FCFCoreApiResponseError&)
+cfcore.ApiResponseHandlerWithProgressImpl<FUploadModFileChunkResponse,TDelegate<void __cdecl(bool const &,TOptional<FCFCoreApiResponseError> const &),FDefaultDelegateUserPolicy> >.HandleProgress(cfcore::HttpProgress&)
+cfcore.ApiResponseHandlerWithProgressImpl<FUploadModFileChunkResponse,TDelegate<void __cdecl(bool const &,TOptional<FCFCoreApiResponseError> const &),FDefaultDelegateUserPolicy> >.HandleResponse(cfcore::HttpResponse&)
+cfcore.BinaryDiffServiceBSDiffImpl.BinaryDiffServiceBSDiffImpl(TSharedPtr<cfcore::IIOThrottlingService,1>,TSharedPtr<cfcore::IThreadPoolsService,1>,TSharedPtr<cfcore::IHashingService,1>,TSharedPtr<cfcore::IFileSystemService,1>)
+cfcore.BinaryDiffServiceBSDiffImpl.ReadHeader(TSharedRef<courgette::SourceStream,1>,bsdiff::MBSPatchHeader_*)
+cfcore.BinaryDiffServiceHDiffImpl.BinaryDiffServiceHDiffImpl(TSharedPtr<cfcore::IIOThrottlingService,1>,TSharedPtr<cfcore::IThreadPoolsService,1>,TSharedPtr<cfcore::IHashingService,1>,TSharedPtr<cfcore::IFileSystemService,1>)
+cfcore.Bootstrap.Create()
+cfcore.Bootstrap.CreateInternalSettings()
+cfcore.Bootstrap.RegisterBinaryDiffServices()
+cfcore.Bootstrap.RegisterInstallStrategies()
+cfcore.CFCoreAnalyticsImpl.FillDefaultExtraParams(TSharedPtr<FJsonObject,1>)
+cfcore.CFCoreAnalyticsImpl.FillDefaultSearchParams(cfcore::UrlSearchParams*)
+cfcore.CFCoreAnalyticsImpl.PublicInterface()
+cfcore.CFCoreAnalyticsImpl.RemoveEmptyJsonFields(TSharedPtr<FJsonObject,1>)
+cfcore.CFCoreAnalyticsImpl.SendAnalytic(cfcore::UrlSearchParams*,TSharedPtr<FJsonObject,1>)
+cfcore.CFCoreAnalyticsImpl.SendGamePlaySession(FGamePlaySessionParams&)
+cfcore.CFCoreAnalyticsImpl.SendModBrowsingFunnelAction(FModBrowsingFunnelParams&)
+cfcore.CFCoreAnalyticsImpl.SendModBrowsingFunnelImpression(FModBrowsingFunnelParams&)
+cfcore.CFCoreAnalyticsImpl.SendModInstall(FModInstallParams&)
+cfcore.CFCoreAnalyticsImpl.~CFCoreAnalyticsImpl()
+cfcore.CFCoreApiAuthorizedImpl.CFCoreApiAuthorizedImpl(TSharedRef<cfcore::ISettingsService,1>,TSharedRef<cfcore::IApiHelperService,1>,TSharedRef<cfcore::ICFCoreAnalyticsInternal,1>,TSharedRef<cfcore::CFCoreApiDelegatesDispatcher<cfcore::CFCoreApiAuthorizedDelegates>,1>)
+cfcore.CFCoreApiAuthorizedImpl.EntitlementsRedeemCode(FEntitlementsRedeemCodeRequest&,TDelegate<void__cdecl(TOptional<FEntitlementCampaign>&,TOptional<FCFCoreApiResponseError>&)>)
+cfcore.CFCoreApiAuthorizedImpl.FinalizePurchase(FFinalizePurchaseRequest&,TDelegate<void__cdecl(TOptional<FCFCoreApiResponseError>&)>)
+cfcore.CFCoreApiAuthorizedImpl.GetBlockedDetails(TDelegate<void__cdecl(TOptional<FBlockedDetails>&,TOptional<FCFCoreApiResponseError>&)>)
+cfcore.CFCoreApiAuthorizedImpl.GetMe(TDelegate<void__cdecl(TOptional<FMe>&,TOptional<FCFCoreApiResponseError>&)>)
+cfcore.CFCoreApiAuthorizedImpl.GetMyRatings(TDelegate<void__cdecl(TOptional<FMyRatings>&,TOptional<FCFCoreApiResponseError>&)>)
+cfcore.CFCoreApiAuthorizedImpl.InitiatePurchase(FInitiatePurchaseRequest&,TDelegate<void__cdecl(TOptional<FPurchaseDetails>&,TOptional<FCFCoreApiResponseError>&)>)
+cfcore.CFCoreApiAuthorizedImpl.RemoveRating(__int64,TDelegate<void__cdecl(TOptional<FCFCoreApiResponseError>&)>)
+cfcore.CFCoreApiAuthorizedImpl.UnblockMods(FUnblockModsRequest&,TDelegate<void__cdecl(TOptional<FCFCoreApiResponseError>&)>)
+cfcore.CFCoreApiAuthorizedImpl.Unsubscribe(FSubscribeRequest&,TDelegate<void__cdecl(TOptional<FCFCoreApiResponseError>&)>)
+cfcore.CFCoreApiAuthorizedImpl.UpdateRating(__int64,ECFCoreRatingVoteDirection,TDelegate<void__cdecl(TOptional<FCFCoreApiResponseError>&)>)
+cfcore.CFCoreApiAuthorizedImpl.~CFCoreApiAuthorizedImpl()
+cfcore.CFCoreApiImpl.Authentication()
+cfcore.CFCoreApiImpl.Authorized()
+cfcore.CFCoreApiImpl.CFCoreApiImpl(TSharedPtr<cfcore::ISettingsService,1>,TSharedPtr<cfcore::IApiHelperService,1>,TSharedPtr<cfcore::ICFCoreApiAuthorized,1>)
+cfcore.CFCoreApiImpl.CancelCreation(__int64)
+cfcore.CFCoreApiImpl.CreateCookedModFileChunked(__int64,__int64,FCreateCookedModFileRequest,TDelegate<void__cdecl(TOptional<FModFileChunkedInfo>&,TOptional<FCFCoreApiResponseError>&)>)
+cfcore.CFCoreApiImpl.CreateModFileChunked(__int64,FCreateModFileRequest,TDelegate<void__cdecl(TOptional<FModFileChunkedInfo>&,TOptional<FCFCoreApiResponseError>&)>)
+cfcore.CFCoreApiImpl.Creation()
+cfcore.CFCoreApiImpl.GetActiveCookingVersion(TDelegate<void__cdecl(TOptional<FSDKVersion>,TOptional<FCFCoreApiResponseError>&)>)
+cfcore.CFCoreApiImpl.GetDirectDownloadDomainEx(TDelegate<void__cdecl(TOptional<FDirectDownloadDomainEx>&,TOptional<FCFCoreApiResponseError>&)>)
+cfcore.CFCoreApiImpl.GetGame(TDelegate<void__cdecl(TOptional<FGame>,TOptional<FCFCoreApiResponseError>&)>)
+cfcore.CFCoreApiImpl.GetModFileDeltaDiff(__int64,__int64,__int64,TDelegate<void__cdecl(TOptional<FFileDeltaDiff>&,TOptional<FCFCoreApiResponseError>&)>)
+cfcore.CFCoreApiImpl.GetModsHighlights(FCFCoreGetModsHighlightsFilter,TDelegate<void__cdecl(TOptional<FModsHighlights>,TOptional<FCFCoreApiResponseError>&)>)
+cfcore.CFCoreApiImpl.GetModsHighlightsV2(FCFCoreGetModsHighlightsFilter,TDelegate<void__cdecl(TOptional<FModsHighlightsV2>,TOptional<FCFCoreApiResponseError>&)>)
+cfcore.CFCoreApiImpl.GetModsHighlightsV3(FCFCoreGetModsHighlightsFilter,TDelegate<void__cdecl(TOptional<FModsHighlightsV3>,TOptional<FCFCoreApiResponseError>&)>)
+cfcore.CFCoreApiImpl.GetTerms(TDelegate<void__cdecl(TOptional<FTerms>&,TOptional<FCFCoreApiResponseError>&)>)
+cfcore.CFCoreAuthenticationImpl.CheckAuthToken()
+cfcore.CFCoreAuthenticationImpl.GetAuthentication()
+cfcore.CFCoreAuthenticationImpl.GetTerms(TDelegate<void__cdecl(TOptional<FTerms>&,TOptional<FCFCoreError>&)>)
+cfcore.CFCoreAuthenticationImpl.HandleAuthToken(TOptional<FAuthToken>,TOptional<FCFCoreApiResponseError>&,TDelegate<void__cdecl(TOptional<FCFCoreError>&)>)
+cfcore.CFCoreAuthenticationImpl.Initialize(FCFCoreInitializationOptions&)
+cfcore.CFCoreAuthenticationImpl.IsAuthenticated()
+cfcore.CFCoreAuthenticationImpl.ResetAuthToken()
+cfcore.CFCoreContext.GetInstance()
+cfcore.CFCoreCreationImpl.CFCoreCreationImpl(TSharedPtr<cfcore::ICFCoreApi,1>,TSharedPtr<cfcore::ICFCoreAuthentication,1>,TSharedPtr<cfcore::ICreateModFileChunkedService,1>,TSharedPtr<cfcore::IFileSystemService,1>)
+cfcore.CFCoreCreationImpl.CancelCreation(__int64,TDelegate<void__cdecl(TOptional<FCFCoreError>&)>)
+cfcore.CFCoreImpl.Analytics()
+cfcore.CFCoreImpl.Api()
+cfcore.CFCoreImpl.Authentication()
+cfcore.CFCoreImpl.CFCoreImpl(TSharedPtr<cfcore::ISettingsService,1>,TSharedPtr<cfcore::ILifetimeInternalService,1>,TSharedPtr<cfcore::ILifetimeService,1>,TSharedPtr<cfcore::ICFCoreApi,1>,TSharedPtr<cfcore::ICFCoreLibraryInternal,1>,TSharedPtr<cfcore::ICFCoreAuthenticationInternal,1>,TSharedPtr<cfcore::ICFCoreCreation,1>,TSharedPtr<cfcore::ICFCorePremiumMods,1>,TSharedPtr<cfcore::ICFCoreAnalytics,1>)
+cfcore.CFCoreImpl.Creation()
+cfcore.CFCoreImpl.Initialize(FCFCoreSettings&,FCFCoreInitializationOptions&,TDelegate<void__cdecl(TOptional<FCFCoreError>)>)
+cfcore.CFCoreImpl.Initialize(FCFCoreSettings&,TDelegate<void__cdecl(TOptional<FCFCoreError>)>)
+cfcore.CFCoreImpl.IsInitialized()
+cfcore.CFCoreImpl.Library()
+cfcore.CFCoreImpl.PremiumMods()
+cfcore.CFCoreImpl.Uninitialize(TDelegate<void__cdecl(TOptional<FCFCoreError>)>)
+cfcore.CFCoreImpl.~CFCoreImpl()
+cfcore.CFCoreLibraryImpl.CFCoreLibraryImpl(TSharedRef<cfcore::IInstalledModsInfoService,1>,TSharedRef<cfcore::IModsInstallationService,1>,TSharedRef<cfcore::IModsValidationService,1>,TSharedRef<cfcore::IDynamicContentService,1>,TSharedRef<cfcore::IModsCleanupService,1>)
+cfcore.CFCoreLibraryImpl.CancelInstallation(__int64,TDelegate<void__cdecl(TOptional<FCFCoreError>&)>)
+cfcore.CFCoreLibraryImpl.GetLibrary()
+cfcore.CFCoreLibraryImpl.GetModsDirInfo(TDelegate<void__cdecl(TOptional<FModsDirInfo>&,TOptional<FCFCoreError>&)>)
+cfcore.CFCoreLibraryImpl.HandleInstall(TSharedRef<cfcore::FInstallModParams,1>)
+cfcore.CFCoreLibraryImpl.Initialize()
+cfcore.CFCoreLibraryImpl.InvalidateAllMods()
+cfcore.CFCoreLibraryImpl.PerformInstalledModsValidations()
+cfcore.CFCoreLibraryImpl.~CFCoreLibraryImpl()
+cfcore.CFCorePremiumModsImpl.CFCorePremiumModsImpl(TSharedPtr<cfcore::ISettingsService,1>,TSharedPtr<cfcore::ICryptoService,1>,TSharedPtr<cfcore::ICFCoreApi,1>)
+cfcore.CFCorePremiumModsImpl.GetModFileDownloadUrl(__int64,__int64,TDelegate<void__cdecl(TOptional<FModFileDownloadUrl>&,TOptional<FCFCoreError>&)>)
+cfcore.CFCorePremiumModsImpl.RemoveSignatureField(TSharedRef<FJsonObject,1>&)
+cfcore.ChunkedFileDownloadServiceImpl.CancelDownload(__int64)
+cfcore.ChunkedFileDownloadServiceImpl.ChunkedFileDownloadServiceImpl(TSharedPtr<cfcore::IApiHelperService,1>,TSharedPtr<cfcore::IHttpService,1>,TSharedPtr<cfcore::IHttpFileService,1>,TSharedPtr<cfcore::IFileSystemService,1>,TSharedPtr<cfcore::ITimerService,1>)
+cfcore.ChunkedFileDownloadServiceImpl.DownloadNextChunk(TSharedRef<cfcore::FDownloadInProgress,1>)
+cfcore.ChunkedFileDownloadServiceImpl.FillDownloadWithFileSize(cfcore::HttpResponse&,TSharedRef<cfcore::FDownloadInProgress,1>)
+cfcore.ChunkedFileDownloadServiceImpl.FinalizeDownload(TSharedRef<cfcore::FDownloadInProgress,1>&,TOptional<FCFCoreError>)
+cfcore.ChunkedFileDownloadServiceImpl.FinalizeDownloadWithError(TSharedRef<cfcore::FDownloadInProgress,1>&,TOptional<FCFCoreError>)
+cfcore.ChunkedFileDownloadServiceImpl.GetHeaderRequestUrlWithTracking(cfcore::FChunkedDownloadInfo&)
+cfcore.ChunkedFileDownloadServiceImpl.GetTrackingParamsString(cfcore::FChunkedDownloadInfo&)
+cfcore.ChunkedFileDownloadServiceImpl.HandleChunkCompletionError(TSharedRef<cfcore::FDownloadInProgress,1>,FCFCoreApiResponseError)
+cfcore.ChunkedFileDownloadServiceImpl.HandleFileSystemError(TSharedRef<cfcore::FDownloadInProgress,1>&,EFileSystemError)
+cfcore.ChunkedFileDownloadServiceImpl.PrepareDownloadParams(TSharedRef<cfcore::FDownloadInProgress,1>)
+cfcore.ChunkedFileDownloadServiceImpl.SendDownloadHeadRequestAndFillFileSize(TSharedRef<cfcore::FDownloadInProgress,1>)
+cfcore.ChunkedFileDownloadServiceImpl.~ChunkedFileDownloadServiceImpl()
+cfcore.CreateModFileChunkedServiceImpl.CancelCreation(__int64)
+cfcore.CreateModFileChunkedServiceImpl.CreateCookedModFileChunked(__int64,__int64,FCreateCookedModFileRequest&,TSharedRef<cfcore::FCreationInProgress,1>)
+cfcore.CreateModFileChunkedServiceImpl.CreateModFileChunked(__int64,FCreateModFileRequest&,TSharedRef<cfcore::FCreationInProgress,1>)
+cfcore.CreateModFileChunkedServiceImpl.CreateModFileChunkedServiceImpl(TSharedPtr<cfcore::ILifetimeService,1>,TSharedPtr<cfcore::ICFCoreApiCreation,1>,TSharedPtr<cfcore::IFileSystemService,1>)
+cfcore.CreateModFileChunkedServiceImpl.FinalizeCreation(TSharedRef<cfcore::FCreationInProgress,1>&,TOptional<FCFCoreError>)
+cfcore.CreateModFileChunkedServiceImpl.HandleFileSystemError(TSharedRef<cfcore::FCreationInProgress,1>&,EFileSystemError)
+cfcore.CreateModFileChunkedServiceImpl.HandleUploadChunkCompletion(TSharedRef<cfcore::FCreationInProgress,1>)
+cfcore.CreateModFileChunkedServiceImpl.HandleUploadChunkError(TSharedRef<cfcore::FCreationInProgress,1>,FCFCoreApiResponseError&)
+cfcore.CreateModFileChunkedServiceImpl.StartUploadingChunks(TOptional<FModFileChunkedInfo>,TSharedRef<cfcore::FCreationInProgress,1>)
+cfcore.CreateModFileChunkedServiceImpl.UploadNextChunk(TSharedRef<cfcore::FCreationInProgress,1>)
+cfcore.CreateModFileChunkedServiceImpl.ValidateModFileChunkedInfo(TSharedRef<cfcore::FCreationInProgress,1>,TOptional<FModFileChunkedInfo>,TOptional<FCFCoreApiResponseError>&,TSharedRef<TPromise<TOptional<FModFileChunkedInfo>>,1>)
+cfcore.DeltaDiffUtils.TryParsingExtraJsonData(TSharedPtr<cfcore::FInstallModRequest,1>,FFileDeltaDiffExtraData&)
+cfcore.DirectoriesServiceImpl.DirectoriesServiceImpl(TSharedPtr<cfcore::ISettingsService,1>)
+cfcore.DirectoriesServiceImpl.GetModsDirectory()
+cfcore.DirectoriesServiceImpl.GetModsRootDirectory()
+cfcore.DirectoriesServiceImpl.GetRelativeModsDirectory()
+cfcore.DirectoriesServiceImpl.GetUserDataDirectory()
+cfcore.DirectoriesServiceImpl.GetUserLogsDirectory()
+cfcore.DirectoriesServiceImpl.InitializeMembers()
+cfcore.DirectoriesServiceImpl.OnUpdated()
+cfcore.DynamicContentServiceImpl.AssurePremiumOwnership(TSharedRef<TSet<__int64,DefaultKeyFuncs<__int64,0>,FDefaultSetAllocator>,1>)
+cfcore.DynamicContentServiceImpl.CheckPremiumOwnership()
+cfcore.DynamicContentServiceImpl.DynamicContentServiceImpl(TSharedPtr<cfcore::ISettingsService,1>,TSharedPtr<cfcore::IInstalledModsInfoService,1>,TSharedPtr<cfcore::ICFCorePremiumMods,1>)
+cfcore.DynamicContentServiceImpl.HandleInstall(TSharedRef<cfcore::FInstallModParams,1>)
+cfcore.FChunkedDownloadInfo.~FChunkedDownloadInfo()
+cfcore.FCreationInProgress.~FCreationInProgress()
+cfcore.FDownloadInProgress.~FDownloadInProgress()
+cfcore.FInstallModParams.~FInstallModParams()
+cfcore.FInstallModRequest.~FInstallModRequest()
+cfcore.FInstallModRequestState.~FInstallModRequestState()
+cfcore.FeaturePhasingServiceImpl.FeaturePhasingServiceImpl(TSharedRef<cfcore::ISharedContextService,1>,TSharedRef<cfcore::CFCoreApiDelegatesDispatcher<cfcore::CFCoreApiAuthorizedDelegates>,1>)
+cfcore.FeaturePhasingServiceImpl.IsFeatureEnabledForUser(int*)
+cfcore.FeaturePhasingServiceImpl.RegisterCFCoreApiDispatcherDelegates(TSharedRef<cfcore::CFCoreApiDelegatesDispatcher<cfcore::CFCoreApiAuthorizedDelegates>,1>)
+cfcore.FileSystemServiceImpl.~FileSystemServiceImpl()
+cfcore.FingerprintsServiceImpl.FingerprintsServiceImpl(TSharedRef<cfcore::IDirectoriesService,1>,TSharedRef<cfcore::IFileSystemService,1>,TSharedRef<cfcore::IHashingService,1>,TSharedRef<cfcore::ISettingsService,1>)
+cfcore.HashingServiceImpl.HashingServiceImpl(TSharedRef<cfcore::IThreadPoolsService,1>,TSharedRef<cfcore::IFileSystemService,1>)
+cfcore.HttpFileServiceImpl.Abort(__int64)
+cfcore.HttpFileServiceImpl.HandleDownloadFileProgress(__int64,TSharedPtr<IHttpRequest,1>,__int64)
+cfcore.HttpFileServiceImpl.HandleUploadFileProgress(__int64,TSharedPtr<IHttpRequest,1>,__int64)
+cfcore.HttpFileServiceImpl.HttpFileServiceImpl(TSharedPtr<cfcore::ISettingsService,1>)
+cfcore.HttpServiceImpl.FillHttpResponse(TSharedPtr<IHttpRequest,1>,TSharedPtr<IHttpResponse,1>,cfcore::HttpResponse&)
+cfcore.HttpServiceImpl.GetUrlDomain(TStringView<wchar_t>)
+cfcore.HttpServiceImpl.HttpServiceImpl()
+cfcore.IOThrottlingServiceImpl.IOThrottlingServiceImpl(TSharedPtr<cfcore::ISettingsService,1>)
+cfcore.IOThrottlingServiceImpl.SleepForNextQuotaInBytes(__int64)
+cfcore.InstallationStrategyImpl.Cancel(TSharedRef<cfcore::FInstallModRequest,1>)
+cfcore.InstallationStrategyImpl.Cleanup(TSharedRef<cfcore::FInstallModRequest,1>)
+cfcore.InstallationStrategyImpl.Install(TSharedRef<cfcore::FInstallModRequest,1>)
+cfcore.InstallationStrategyImpl.Uninstall(TSharedRef<cfcore::FInstallModRequest,1>)
+cfcore.InstalledModsInfoServiceImpl.Initialize()
+cfcore.InstalledModsInfoServiceImpl.InstalledModsInfoServiceImpl(TSharedPtr<cfcore::ISettingsService,1>,TSharedPtr<cfcore::IDirectoriesService,1>,TSharedPtr<cfcore::IFileSystemService,1>,TSharedPtr<cfcore::ICFCoreApi,1>)
+cfcore.InstalledModsInfoServiceImpl.PerformModsSync()
+cfcore.InstalledModsInfoServiceImpl.RemoveInstalledModByModId(__int64)
+cfcore.InstalledModsInfoServiceImpl.SaveInstalledModsToDisk()
+cfcore.InstalledModsInfoServiceImpl.SetInstalling(TSharedRef<cfcore::FInstallModParams,1>)
+cfcore.InstalledModsInfoServiceImpl.Uninstall(__int64)
+cfcore.InstalledModsInfoServiceImpl.~InstalledModsInfoServiceImpl()
+cfcore.InstalledModsInfoUnmanagedServiceImpl.Initialize()
+cfcore.InstalledModsInfoUnmanagedServiceImpl.ScanUnmanagedMods()
+cfcore.InstalledModsInfoUnmanagedServiceImpl.SetInstalling(TSharedRef<cfcore::FInstallModParams,1>)
+cfcore.InstalledModsInfoUnmanagedServiceImpl.Uninstall(__int64)
+cfcore.InstalledModsInfoUnmanagedServiceImpl.~InstalledModsInfoUnmanagedServiceImpl()
+cfcore.LifetimeServiceImpl.Initialized()
+cfcore.LifetimeServiceImpl.IsShuttingDown()
+cfcore.LifetimeServiceImpl.LifetimeServiceImpl()
+cfcore.LoggerOutputFileServiceImpl.CleanOldLogFiles()
+cfcore.LoggerOutputFileServiceImpl.GetLogFilePrefix()
+cfcore.LoggerOutputFileServiceImpl.InitializeSettings(TSharedPtr<cfcore::ISettingsService,1>&)
+cfcore.LoggerOutputFileServiceImpl.LoggerOutputFileServiceImpl(TSharedPtr<cfcore::ISettingsService,1>,TSharedPtr<cfcore::IFileSystemService,1>,TSharedPtr<cfcore::IDirectoriesService,1>)
+cfcore.LoggerOutputFileServiceImpl.RolloutNewLogFile()
+cfcore.LoggerServiceImpl.Initialize()
+cfcore.LoggerServiceImpl.Log(char*,int,ELogVerbosity::Type,wchar_t*,<NoType>)
+cfcore.LoggerServiceImpl.LoggerServiceImpl(TSharedPtr<cfcore::ILifetimeService,1>,TSharedPtr<cfcore::IThreadPoolsService,1>,TSharedPtr<cfcore::ILoggerOutputService,1>,TSharedPtr<cfcore::IStartupInfoLogging,1>)
+cfcore.LoggerServiceImpl.~LoggerServiceImpl()
+cfcore.ModsCleanupServiceImpl.DeleteTempDir()
+cfcore.ModsCleanupServiceImpl.GetInstalledModsRootDirectories()
+cfcore.ModsCleanupServiceImpl.Run()
+cfcore.ModsCleanupServiceImpl.~ModsCleanupServiceImpl()
+cfcore.ModsInstallationServiceImpl.AddTrackingEvents(TSharedPtr<cfcore::FInstallModRequest,1>)
+cfcore.ModsInstallationServiceImpl.CancelInstallByModId(__int64)
+cfcore.ModsInstallationServiceImpl.GetModFilePathPattern(FFile&)
+cfcore.ModsInstallationServiceImpl.GetModsDirInfo(TSharedRef<FModsDirInfo,1>)
+cfcore.ModsInstallationServiceImpl.GetOutputDir(FFile&)
+cfcore.ModsInstallationServiceImpl.Initialize(bool)
+cfcore.ModsInstallationServiceImpl.RunCleanupStrategies(TSharedPtr<cfcore::FInstallModRequest,1>)
+cfcore.ModsInstallationServiceImpl.RunInstallStrategies(TSharedPtr<cfcore::FInstallModRequest,1>)
+cfcore.ModsInstallationServiceImpl.RunUninstallStrategies(TSharedPtr<cfcore::FInstallModRequest,1>)
+cfcore.ModsInstallationServiceImpl.TriggerNextInstallation()
+cfcore.ModsInstallationServiceImpl.~ModsInstallationServiceImpl()
+cfcore.ModsValidationServiceImpl.ModsValidationServiceImpl(TSharedRef<cfcore::IDirectoriesService,1>,TSharedRef<cfcore::IFileSystemService,1>,TSharedRef<cfcore::IInstalledModsInfoService,1>,TSharedRef<cfcore::IFingerprintsService,1>,TSharedRef<cfcore::ICFCoreApi,1>,TSharedRef<cfcore::IFeaturePhasingService,1>,TSharedRef<cfcore::ISettingsService,1>)
+cfcore.ModsValidationServiceImpl.~ModsValidationServiceImpl()
+cfcore.PersistentBinaryFileImpl.Flush()
+cfcore.PersistentBinaryFileImpl.IsValid()
+cfcore.PersistentBinaryFileImpl.PersistentBinaryFileImpl(TSharedPtr<cfcore::IIOThrottlingService,1>)
+cfcore.PersistentBinaryFileImpl.Read(__int64,__int64,TArrayView<unsignedchar,__int64>&)
+cfcore.PersistentBinaryFileImpl.TotalSizeInBytes()
+cfcore.PersistentBinaryFileImpl.Write(unsignedchar*,__int64)
+cfcore.PersistentBinaryFileReaderImpl.AsType()
+cfcore.PersistentBinaryFileReaderImpl.IsValid()
+cfcore.PersistentBinaryFileReaderImpl.PersistentBinaryFileReaderImpl(TSharedPtr<cfcore::IIOThrottlingService,1>)
+cfcore.PersistentBinaryFileReaderImpl.Read(__int64,__int64,TArrayView<unsignedchar,__int64>&)
+cfcore.PersistentBinaryFileReaderImpl.TotalSizeInBytes()
+cfcore.PersistentBinaryFileWriterImpl.AsType()
+cfcore.PersistentBinaryFileWriterImpl.Flush()
+cfcore.PersistentBinaryFileWriterImpl.IsValid()
+cfcore.PersistentBinaryFileWriterImpl.PersistentBinaryFileWriterImpl(TSharedPtr<cfcore::IIOThrottlingService,1>)
+cfcore.PersistentBinaryFileWriterImpl.TotalSizeInBytes()
+cfcore.PersistentBinaryFileWriterImpl.Write(__int64,unsignedchar*,__int64)
+cfcore.PersistentBinaryFileWriterImpl.Write(unsignedchar*,__int64)
+cfcore.PersistentLogFileImpl.IsValid()
+cfcore.PersistentLogFileImpl.TotalSizeInBytes()
+cfcore.PersistentLogFileImpl.~PersistentLogFileImpl()
+cfcore.PersistentModel<FSharedContextInfo>.PersistentModel<FSharedContextInfo>(TSharedPtr<cfcore::ILifetimeService,1>,TSharedPtr<cfcore::IFileSystemService,1>)
+cfcore.PersistentModel<FSharedContextInfo>.SaveModelToDisk()
+cfcore.SettingsServiceImpl.GetInternalSettings()
+cfcore.SettingsServiceImpl.GetSettings()
+cfcore.SettingsServiceImpl.LogSettingWithoutSecrets()
+cfcore.SettingsServiceImpl.OnSettingsUpdated()
+cfcore.SettingsServiceImpl.SetSettings(FCFCoreSettings&)
+cfcore.SettingsServiceImpl.SettingsServiceImpl(FInternalSettings&)
+cfcore.SettingsServiceImpl.ValidateSettings(FCFCoreSettings&)
+cfcore.SharedContextServiceImpl.Initialize()
+cfcore.SharedContextServiceImpl.InnerInitialize(TSharedRef<TPromise<bool>,1>)
+cfcore.SharedContextServiceImpl.SharedContextInfo()
+cfcore.SharedContextServiceImpl.SharedContextServiceImpl(TSharedPtr<cfcore::ISettingsService,1>,TSharedPtr<cfcore::IDirectoriesService,1>,TSharedPtr<cfcore::PersistentModel<FSharedContextInfo>,1>)
+cfcore.StartupInfoLoggingImplWin.Run()
+cfcore.ThreadPoolsServiceImpl.Compression()
+cfcore.ThreadPoolsServiceImpl.IO()
+cfcore.ThreadPoolsServiceImpl.Logger()
+cfcore.ThreadPoolsServiceImpl.~ThreadPoolsServiceImpl()
+cfcore.TimerDelegateInfo.TimerDelegateInfo(cfcore::TimerDelegateInfo&)
+cfcore.TimerServiceImpl.Delay(TDelegate<void__cdecl(void)>,unsigned__int64)
+cfcore.TimerServiceImpl.TimerServiceImpl(TSharedPtr<cfcore::ILifetimeService,1>)
+cfcore.UrlSearchParams.ToString()
+cfcore.WWWForm.Clear()
+cfcore.WWWForm.GenerateRandomBoundary()
+cfcore.WWWForm.GetContents()
+cfcore.WWWForm.WWWForm()
+cfcore.WWWForm.~WWWForm()
+cfcore.WritePersistentFileStream(hpatch_TStreamOutput*,unsigned__int64,unsignedchar*,unsignedchar*)
+cfcore.ZipServiceImpl.ZipServiceImpl(TSharedPtr<cfcore::IThreadPoolsService,1>,TSharedPtr<cfcore::IFileSystemService,1>,unsigned__int64)
+cfcore.hpatch_progress_handler(spatch_progressListener_t*,unsignedint,unsigned__int64)
